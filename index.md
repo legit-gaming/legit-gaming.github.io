@@ -20,7 +20,7 @@
 
 Start with Number Guessing Game
 Goal 1 (in JS file): Set variable to a hard coded number and print number to console
-  * Intro to variables and types
+  * Intro to variables and types (for each - a page with description and examples - students to reference, thimble with example problems to solve (for mentors to use during live demons), thimble with solutions (for mentors only))
   * Introduce console.log
   
  Goal 2 (in JS file): Use +, -, *, / to solve math problems -- utilize varibales as well
