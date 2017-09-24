@@ -1,6 +1,12 @@
-## Week 1
+## Code Girl: Game Makers
+
+Creating games with JavaScript
+
+### Week 1
+
 * Activity/Introduction/Nametags
 * Set program ground rules - mentors to add to this website
+
 * HTML Overview/Refresh
 * What is JavaScript? [What is JavaScript?](WhatIsJavaScript.md)
 * Set scope for 7 weeks / explain Curriculum
@@ -35,7 +41,7 @@ Goal 1 (in JS file): Set variable to a hard coded number and print number to con
   * if/if-else/else statement
   * Greater/Less than boolean expression
 
-## Week 2
+### Week 2
 
 * Activity to breakup the class - can be done at the beginning, middle, end of the class (ice breaker or CS Unplugged)
   \*e.g. Bring in Pis with Minecraft one week, Lightbot
@@ -51,7 +57,7 @@ Goal 1 (in JS file): Set variable to a hard coded number and print number to con
 * Group Selfie
 * Properly shutdown computers
 
-## Week 3
+### Week 3
 
 * Activity/Nametags
 
@@ -65,7 +71,7 @@ Goal 1 (in JS file): Set variable to a hard coded number and print number to con
 * Group Selfie
 * Properly shutdown computers
 
-## Week 4
+### Week 4
 
 * Activity/Nametags
 
@@ -82,7 +88,7 @@ Goal 1 (in JS file): Set variable to a hard coded number and print number to con
 * Group Selfie
 * Properly shutdown computers
 
-## Week 5
+### Week 5
 
 * Activity/Nametags
 
@@ -96,7 +102,7 @@ Goal 1 (in JS file): Set variable to a hard coded number and print number to con
 * Group Selfie
 * Properly shutdown computers
 
-## Week 6
+### Week 6
 
 * Activity/Nametags
 
@@ -110,7 +116,7 @@ Goal 1 (in JS file): Set variable to a hard coded number and print number to con
 * Group Selfie
 * Properly shutdown computers
 
-## Week 7
+### Week 7
 
 * Activity/Nametags
 
