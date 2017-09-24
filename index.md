@@ -2,7 +2,7 @@
 * Activity/Introduction/Nametags
 * Set program ground rules - mentors to add to this website
 * HTML Overview/Refresh
-* What is JavaScript? What is it used for? - Youtube video, ppt?, [What is JavaScript?](WhatIsJavascript.md)
+* What is JavaScript? What is it used for? - Youtube video, ppt?, [What is JavaScript?](WhatIsJavaScript.md)
   * Show some JS games (show off ones they are going to do)
   * [Add demo links here]
 * Set scope for 7 weeks / explain Curriculum
