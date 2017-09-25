@@ -8,7 +8,7 @@ Creating games with JavaScript
 * Set program ground rules - mentors to add to this website
 
 * HTML Overview/Refresh
-* What is JavaScript? [What is JavaScript?](WhatIsJavaScript.md)
+* [What is JavaScript?](WhatIsJavaScript.md)
 * Set scope for 7 weeks / explain Curriculum
 * Thimble setup (creating blank JS file using green add button (remove pre-existing js function)  -- USE CHROME
 * Walk through adding <Script> tag to html file
@@ -76,7 +76,7 @@ Goal 1 (in JS file): Set variable to a hard coded number and print number to con
 * Activity/Nametags
 
 * Target Practice 
-  * Introduce (p5)[https://p5js.org/reference/] and (canvas)[https://www.w3schools.com/graphics/canvas_intro.asp]
+  * Introduce [p5](https://p5js.org/reference/) and [canvas](https://www.w3schools.com/graphics/canvas_intro.asp)
   * Setup HTML page with script tag for loading p5 and to JavaScript for the game
   * Introduce p5 setup lifecycle function
   * Create a canvas and draw shapes
