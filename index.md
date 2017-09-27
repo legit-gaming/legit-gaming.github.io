@@ -44,6 +44,8 @@ Goal 1 (in JS file): Set variable to a hard coded number and print number to con
   * if/if-else/else statement
   * Greater/Less than boolean expression
 
+[Week 1 Goals Walkthrough](./week1/Goals.md)
+
 ### Week 2
 
 * Activity to breakup the class - can be done at the beginning, middle, end of the class (ice breaker or CS Unplugged)
