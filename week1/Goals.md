@@ -106,7 +106,7 @@ getRandomNumber();
 
 We tell JavaScript that we want to create a function by saying `function` and then giving it a name with parentheses.  Once we have that settled, then we create some open and closing squiggly brackets with our code we want to save in the middle.  After we are finished creating our function, then we call it by name.
 
-We can make our function a little more flexible by passing in parameters.  Say we do not always want 10 to be the max big number, so we can tell our function what max we would like.
+We can make our function a little more flexible by passing in parameters.  Say we do not always want 10 to be the max number, so we can tell our function what max we would like.
 
 ```javascript
 function getRandomNumber(max) {
