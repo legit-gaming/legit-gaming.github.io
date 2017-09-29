@@ -6,7 +6,7 @@ HTML works by creating a .html file (MyVideoGames.html for example).  Within the
 
 Every html file begins with <!DOCTYPE html> and will haven a beginning and ending < html > tag.  An example html file looks like: 
 
-/*<!DOCTYPE html>
+\<!DOCTYPE html>
 <html>
 <head>
 <title>My Videogames</title>
@@ -14,7 +14,7 @@ Every html file begins with <!DOCTYPE html> and will haven a beginning and endin
 <body>
 <p>This is a paragraph about my videogame.</p>
 </body>
-</html>*/
+</html>
 
 Explanation of tags: 
 
