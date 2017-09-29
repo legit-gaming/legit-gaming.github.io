@@ -25,6 +25,7 @@ Start with Number Guessing Game
 Mentor Edition - Contains all solutions - Use legitLiberty account
 [Game Makers: Week 1 Goals](https://thimble.mozilla.org/en-US/user/legitliberty/1186702/)
 
+Before variables - run cup activity
 Goal 1 (in JS file): Set variable to a hard coded number and print number to console
   * Intro to variables and types (for each - a page with description and examples - students to reference, thimble with example problems to solve (for mentors to use during live demons), thimble with solutions (for mentors only))
   * Introduce console.log
