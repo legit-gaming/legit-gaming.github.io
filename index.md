@@ -40,6 +40,9 @@ Goal 1 (in JS file): Set variable to a hard coded number and print number to con
   * Intro to functions and parameters
   * Explain returns - hold off initially?
   * Revisit Random command
+ 
+  * before functions #5, setup number guessing game project - build basic html (not user input)
+  * add variables and random number before
   
  Goal 5 if statements
   * If/else statement with simple boolean
