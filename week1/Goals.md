@@ -1,4 +1,4 @@
-## Week 1 Goals
+## Week 1 and Week 2 Goals
 
 1. Print with console.log
 2. Create variables
