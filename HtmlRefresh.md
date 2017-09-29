@@ -27,11 +27,9 @@ Every html file begins with \<!DOCTYPE html> and will haven a beginning and endi
 Explanation of tags: 
 
 The header tag: 
-The < head > element is a container for all the head elements. The <head> element can include a title for the document, scripts, styles, meta information, and more. 
+The \<head> element is a container for all the head elements. The <head> element can include a title for the document, scripts, styles, meta information, and more. 
 
-The p tag: 
-
-The HTML <p> element represents a paragraph of text. 
+The p tag: The HTML <p> element represents a paragraph of text. 
 
 The bold tag: 
 \<b>
