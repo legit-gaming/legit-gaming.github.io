@@ -6,6 +6,8 @@
 4. Create a random number
 5. Create functions
 6. Use if statements
+7. Introduce user input, buttons, and alerts
+8. Review DOM document and using element ID
 
 ### 1. Print with console.log
 
