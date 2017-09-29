@@ -11,7 +11,7 @@ Creating games with JavaScript
 * [What is JavaScript?](WhatIsJavaScript.md)
 * Set scope for 7 weeks / explain Curriculum
 * Thimble setup (creating blank JS file using green add button (remove pre-existing js function)  -- USE CHROME
-* Walk through adding <Script> tag to html file
+* Walk through adding &#60;Script&#62; tag to html file
 * Rename HTML file to number guessing game - 5 minutes to make it fun
 
 * Paperwork - initial survey, photo release form
