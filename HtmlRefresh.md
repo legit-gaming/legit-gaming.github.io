@@ -2,11 +2,11 @@
 
 HTML stands for HyperText Markup Language.  It allows us to create websites!  HTML is used for defining how a browser should display information.  This is achieved through a standard set of tags, which tells the browser what to do with the text inside the tags.  
 
-HTML works by creating a .html file (MyVideoGames.html for example).  Within the .html file, you define your page using special html tags.  Tags are the words between the greater than / less than brackets: <>. An example of a tag is <b>.  
+HTML works by creating a .html file (MyVideoGames.html for example).  Within the .html file, you define your page using special html tags.  Tags are the words between the greater than / less than brackets: <>. An example of a tag is < b >.  
 
-Every html file begins with <!DOCTYPE html> and will haven a beginning and ending <html> tag.  An example html file looks like: 
+Every html file begins with <!DOCTYPE html> and will haven a beginning and ending < html > tag.  An example html file looks like: 
 
-<!DOCTYPE html>
+/*<!DOCTYPE html>
 <html>
 <head>
 <title>My Videogames</title>
@@ -14,19 +14,19 @@ Every html file begins with <!DOCTYPE html> and will haven a beginning and endin
 <body>
 <p>This is a paragraph about my videogame.</p>
 </body>
-</html>
+</html>*/
 
 Explanation of tags: 
 
 The header tag: 
-The <head> element is a container for all the head elements. The <head> element can include a title for the document, scripts, styles, meta information, and more. 
+The < head > element is a container for all the head elements. The <head> element can include a title for the document, scripts, styles, meta information, and more. 
 
 The p tag: 
 
 The HTML <p> element represents a paragraph of text. 
 
 The bold tag: 
-<b>These words will be bold because they are within the b tag</b>, but these words will not be bold.  The browser understands that anything within a <b></b> should be displayed in bold lettering, and the browser is also smart enough to hide the tag.  
+< b ><b>These words will be bold because they are within the b tag</b> < / b >, but these words will not be bold.  The browser understands that anything within a < b >< /b > should be displayed in bold lettering, and the browser is also smart enough to hide the tag.  
 
 When we want to build large websites that have the same look and feel, repeating the same html tags in each .html file becomes repetitive and hard to manage.  This is where cascading style sheets (CSS) comes in!  
 
