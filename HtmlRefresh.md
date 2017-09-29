@@ -7,6 +7,7 @@ HTML works by creating a .html file (MyVideoGames.html for example).  Within the
 Every html file begins with \<!DOCTYPE html> and will haven a beginning and ending \<html> tag.  An example html file looks like: 
 
 \<!DOCTYPE html>
+
 \<html>
 \<head>
 \<title>My Videogames</title>
