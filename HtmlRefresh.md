@@ -9,12 +9,19 @@ Every html file begins with \<!DOCTYPE html> and will haven a beginning and endi
 \<!DOCTYPE html>
 
 \<html>
+
 \<head>
+
 \<title>My Videogames</title>
+
 \</head>
+
 \<body>
+
 \<p>This is a paragraph about my videogame.</p>
+
 \</body>
+
 \</html>
 
 Explanation of tags: 
