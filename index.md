@@ -7,7 +7,7 @@ Creating games with JavaScript
 * Activity/Introduction/Nametags
 * Set program ground rules - mentors to add to this website
 
-* HTML Overview/Refresh
+* [HTML Overview/Refresh](HtmlRefresh.md)
 * [What is JavaScript?](WhatIsJavaScript.md)
 * Set scope for 7 weeks / explain Curriculum
 * Thimble setup (creating blank JS file using green add button (remove pre-existing js function)  -- USE CHROME
