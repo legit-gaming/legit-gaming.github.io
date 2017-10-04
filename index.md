@@ -16,4 +16,4 @@ Creating games with JavaScript
   * Turn in Photo Release Form
   * Turn in Namecard
   * Group Selfie
-  * Property Shutdown Computers
+  * Properly Shutdown Computers
