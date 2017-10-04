@@ -1,6 +1,6 @@
 ## Code Girl: Game Makers
 
-Creating games with JavaScript
+Detailed Mentor Curriculum
 
 ### Week 1
 
