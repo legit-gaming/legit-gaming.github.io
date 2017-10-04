@@ -23,7 +23,7 @@ Detailed Mentor Curriculum
   * Collect photo release form, hand out extras for those missing them
   * Collect name cards
   * Group Selfie
-  * Property shutdown computers
+  * Properly shutdown computers
 
 
 
