@@ -12,21 +12,24 @@ Creating games with JavaScript
 * Go through [HTML Overview/Refresh](HtmlRefresh.md)
 * Review [What is JavaScript?](WhatIsJavaScript.md)
 * Thimble Setup (USE CHROME) - have students create project workspaces and name them – one for Week 1-2 Goals and Exercises, and one for Number Guessing Game
- * Add a JavaScript file to both projects – do this by using the green add file button in the left panel. Once created, remove the pre-existing JS function)
+  * Add a JavaScript file to both projects – do this by using the green add file button in the left panel. Once created, remove the pre-existing JS function)
 * Walk through adding &#60;Script&#62; tag and content to html file
 * [Week 1-2 Goals Walkthrough](https://legit-gaming.github.io/week1/Goals.html) (print console – Random numbers)
- * Prior to variables (or even print console) run the Variable Cup Activity
- * Class Edition – examples and exercises to walkthrough with the students: [Game Makers: Weeks 1-2 Goals](https://thimble.mozilla.org/en-US/user/legitliberty/1186702/)
- * Mentor Edition – contains solutions to exercises: [Game Makers: Weeks 1-2 Solutions](https://thimble.mozilla.org/en-US/user/legitliberty/1188709/)
- * Use legitliberty account to access above projects
+  * Prior to variables (or even print console) run the Variable Cup Activity
+  * Class Edition – examples and exercises to walkthrough with the students: [Game Makers: Weeks 1-2 Goals](https://thimble.mozilla.org/en-US/user/legitliberty/1186702/)
+  * Mentor Edition – contains solutions to exercises: [Game Makers: Weeks 1-2 Solutions](https://thimble.mozilla.org/en-US/user/legitliberty/1188709/)
+  * Use legitliberty account to access above projects
 * Closing activities
- * Collect photo release form, hand out extras for those missing them
- * Collect name cards
- * Group Selfie
- * Property shutdown computers
+  * Collect photo release form, hand out extras for those missing them
+  * Collect name cards
+  * Group Selfie
+  * Property shutdown computers
 
 
 
+
+
+### To be placed in a week
  Goal 2 (in JS file): Use +, -, \*, / to solve math problems -- utilize varibales as well
   * Simple arithmetic problems
   
