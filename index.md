@@ -4,32 +4,29 @@ Creating games with JavaScript
 
 ### Week 1
 
-* Activity/Introduction/Nametags
-* Set program ground rules - mentors to add to this website
+* Introduction - Mentors and Students
+* Students to create namecards and put on workstations
+ * While doing above, have students complete the Intro Survey
+* Set program ground rules (add them to GitHub site going forward)
+* Set scope for the 7 weeks and review Curriculum
+* Go through [HTML Overview/Refresh](HtmlRefresh.md)
+* Review [What is JavaScript?](WhatIsJavaScript.md)
+* Thimble Setup (USE CHROME) - have students create project workspaces and name them – one for Week 1-2 Goals and Exercises, and one for Number Guessing Game
+ * Add a JavaScript file to both projects – do this by using the green add file button in the left panel. Once created, remove the pre-existing JS function)
+* Walk through adding &#60;Script&#62; tag and content to html file
+* [Week 1-2 Goals Walkthrough](https://legit-gaming.github.io/week1/Goals.html) (print console – Random numbers)
+ * Prior to variables (or even print console) run the Variable Cup Activity
+ * Class Edition – examples and exercises to walkthrough with the students: [Game Makers: Weeks 1-2 Goals](https://thimble.mozilla.org/en-US/user/legitliberty/1186702/)
+ * Mentor Edition – contains solutions to exercises: [Game Makers: Weeks 1-2 Solutions](https://thimble.mozilla.org/en-US/user/legitliberty/1188709/)
+ * Use legitliberty account to access above projects
+* Closing activities
+ * Collect photo release form, hand out extras for those missing them
+ * Collect name cards
+ * Group Selfie
+ * Property shutdown computers
 
-* [HTML Overview/Refresh](HtmlRefresh.md)
-* [What is JavaScript?](WhatIsJavaScript.md)
-* Set scope for 7 weeks / explain Curriculum
-* Thimble setup (creating blank JS file using green add button (remove pre-existing js function)  -- USE CHROME
-* Walk through adding &#60;Script&#62; tag to html file
-* Rename HTML file to number guessing game - 5 minutes to make it fun
 
-* Paperwork - initial survey, photo release form
-* Collect namecards
-* Group Selfie
-* Properly shutdown computers
 
-* Number Guessing Game
-Start with Number Guessing Game
-
-Mentor Edition - Contains all solutions - Use legitLiberty account
-[Game Makers: Week 1 Goals](https://thimble.mozilla.org/en-US/user/legitliberty/1186702/)
-
-Before variables - run cup activity
-Goal 1 (in JS file): Set variable to a hard coded number and print number to console
-  * Intro to variables and types (for each - a page with description and examples - students to reference, thimble with example problems to solve (for mentors to use during live demons), thimble with solutions (for mentors only))
-  * Introduce console.log
-  
  Goal 2 (in JS file): Use +, -, \*, / to solve math problems -- utilize varibales as well
   * Simple arithmetic problems
   
