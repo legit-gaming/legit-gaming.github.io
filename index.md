@@ -6,7 +6,7 @@ Creating games with JavaScript
 
 * Introductions
 * Create Namecards and Complete Intro Survey
-* Create Program Ground Rules
+* Create Program [Ground Rules](GroundRules.md)
 * Review Curriculum
 * Go through [HTML Overview/Refresh](HtmlRefresh.md)
 * Review [What is JavaScript?](WhatIsJavaScript.md)
