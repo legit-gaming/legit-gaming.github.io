@@ -26,8 +26,8 @@ Creating games with JavaScript
 *	Review completed work from week 1 (Print Console – started Solve math problems)
 *	Open Thimble Projects (USE CHROME)
 *	[Week 1-2 Goals Walkthrough](https://legit-gaming.github.io/week1/Goals.html) (Solve math problems – Using buttons and alerts)
-*	Closing Activities 
-  * Collect in Photo Release Form
+* Closing Activities
+  * Turn in Photo Release Form
   * Turn in Namecard
   * Group Selfie
   * Properly Shutdown Computers
