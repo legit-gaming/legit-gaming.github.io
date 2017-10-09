@@ -6,8 +6,8 @@
 4. Create a random number
 5. Create functions
 6. Use if statements
-7. Introduce user input, buttons, and alerts
-8. Review DOM document and using element ID
+7. Grab data from a webpage 
+8. Using buttons and alerts 
 
 ### 1. Print with console.log
 
@@ -210,3 +210,60 @@ if (numberOfOranges < numberOfApples) {
 ```
 
 Try creating your own if statements.
+
+### 7. Grab data from a webpage 
+
+Lets start off by creating an input box on webpage.  We can do this by adding the following element to our html page.
+
+```
+<input type="text" id="myInput" />
+```
+
+Now if someone types something into our textbox how could our JavaScript grab that information?  We can inspect the document object model (DOM).  When a webpage loads it builds a document object, which creates a number of children objects that represent the items we wrote in our HTML.  For example, the input we wrote above is a child of our document.  Now lets walk through how we can grab the value of the input box with JavaScript.
+
+```
+var myInput = document.getElementById('myInput');
+var myInputValue = myInput.value;
+
+console.log('myInput Value: ' + myInputValue);
+```
+
+On the first line, we use the `document` object, which is globally available.  This means JavaScript can always access it.  We then tell the document object we want to grab one of its children, also called an element in this case, by their id.  We do this by calling the `getElementById` function and providing it the id of our textbox.  It returns the textbox object, which we can grab the value from by saying `myInput.value`.
+
+### 8. Using buttons and alerts 
+
+We can try to make our webpage a little more interactive with buttons and alerts.  Lets create a button within our webpage next to the input.
+
+```
+<button>Click Me</button>
+```
+
+How do we make our button run JavaScript when it is clicked?  We can use the onclick attribute!
+
+```
+<button onclick="clickMe()">Click Me</button>
+```
+
+Now when the button is clicked it will run the clickMe() function in our Javascript.  However, we do not have a clickMe function, so lets write it.
+
+```
+function clickMe() {
+  var myInput = document.getElementById('myInput');
+  var myInputValue = myInput.value;
+
+  console.log('myInput Value: ' + myInputValue);
+}
+```
+
+We took the code we wrote from earlier, so now when we click the button it will print the value of the text box to console.  However, what if our users do not want to open the console to view the value?  We could use alerts.
+
+```
+function clickMe() {
+  var myInput = document.getElementById('myInput');
+  var myInputValue = myInput.value;
+
+  alert('myInput Value: ' + myInputValue);
+}
+```
+
+We switched `console.log` to `alert`, which will tell the browser to make a pop-up.
