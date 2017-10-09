@@ -215,13 +215,13 @@ Try creating your own if statements.
 
 Lets start off by creating an input box on webpage.  We can do this by adding the following element to our html page.
 
-```
+```html
 <input type="text" id="myInput" />
 ```
 
 Now if someone types something into our textbox how could our JavaScript grab that information?  We can inspect the document object model (DOM).  When a webpage loads it builds a document object, which creates a number of children objects that represent the items we wrote in our HTML.  For example, the input we wrote above is a child of our document.  Now lets walk through how we can grab the value of the input box with JavaScript.
 
-```
+```javascript
 var myInput = document.getElementById('myInput');
 var myInputValue = myInput.value;
 
@@ -234,19 +234,19 @@ On the first line, we use the `document` object, which is globally available.  T
 
 We can try to make our webpage a little more interactive with buttons and alerts.  Lets create a button within our webpage next to the input.
 
-```
+```html
 <button>Click Me</button>
 ```
 
 How do we make our button run JavaScript when it is clicked?  We can use the onclick attribute!
 
-```
+```html
 <button onclick="clickMe()">Click Me</button>
 ```
 
 Now when the button is clicked it will run the clickMe() function in our Javascript.  However, we do not have a clickMe function, so lets write it.
 
-```
+```javascript
 function clickMe() {
   var myInput = document.getElementById('myInput');
   var myInputValue = myInput.value;
@@ -257,7 +257,7 @@ function clickMe() {
 
 We took the code we wrote from earlier, so now when we click the button it will print the value of the text box to console.  However, what if our users do not want to open the console to view the value?  We could use alerts.
 
-```
+```javascript
 function clickMe() {
   var myInput = document.getElementById('myInput');
   var myInputValue = myInput.value;
