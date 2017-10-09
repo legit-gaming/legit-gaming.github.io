@@ -6,4 +6,4 @@ The ground rules the class decided on during week 1.
 * Respect each other
 * Do not talk when someone else is talking
 * Be school appropriate
-* ###Have fun!
+* __Have fun!__
