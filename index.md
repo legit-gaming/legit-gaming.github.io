@@ -1,3 +1,4 @@
+
 ## Code Girl: Game Makers
 
 Creating games with JavaScript
@@ -17,3 +18,16 @@ Creating games with JavaScript
   * Turn in Namecard
   * Group Selfie
   * Properly Shutdown Computers
+
+### Week 2
+*	Introductions
+*	Hand out Namecards
+*	Review Program Ground Rules 
+*	Review completed work from week 1 (Print with console.log – beginning of Solve math problems)
+*	Open Thimble Projects (USE CHROME)
+*	Week 1-2 Goals Walkthrough (Solve math problems – Using buttons and alerts)
+*	Closing Activities 
+ *	Collect Photo Release Form
+ * Turn in Namecard
+ *	Group Selfie
+ *	Properly Shutdown Computers
