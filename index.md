@@ -26,6 +26,11 @@ Creating games with JavaScript
 *	Review completed work from week 1 (Print Console – started Solve math problems)
 *	Open Thimble Projects (USE CHROME)
 *	[Week 1-2 Goals Walkthrough](https://legit-gaming.github.io/week1/Goals.html) (Solve math problems – Using buttons and alerts)
+* Number Guessing Game
+  * Create html page with a text box for taking guesses and submit button for checking the guess
+  * Add script tag in html page to load JavaScript from last week
+  * Create a checkGuess() function, which alerts the user of their guess when clicking the submit button
+  * Create a function that generates and saves a random number
 * Closing Activities
   * Collect Photo Release Form
   * Turn in Namecard
