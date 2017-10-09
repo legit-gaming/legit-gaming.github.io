@@ -22,10 +22,10 @@ Creating games with JavaScript
 ### Week 2
 *	Introductions
 *	Hand out Namecards
-*	Review Program Ground Rules 
-*	Review completed work from week 1 (Print with console.log – beginning of Solve math problems)
+*	Review Program [Ground Rules](GroundRules.md) 
+*	Review completed work from week 1 (Print Console – started Solve math problems)
 *	Open Thimble Projects (USE CHROME)
-*	Week 1-2 Goals Walkthrough (Solve math problems – Using buttons and alerts)
+*	[Week 1-2 Goals Walkthrough](https://legit-gaming.github.io/week1/Goals.html) (Solve math problems – Using buttons and alerts)
 *	Closing Activities 
  *	Collect Photo Release Form
  * Turn in Namecard
