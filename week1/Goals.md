@@ -5,9 +5,11 @@
 3. Solve math problems 
 4. Create a random number
 5. Create functions
-6. Use if statements
-7. Grab data from a webpage 
-8. Using buttons and alerts 
+6. Use alerts
+7. Variable scope
+8. Use if statements
+9. Grab data from a webpage 
+10. Use buttons and alerts 
 
 ### 1. Print with console.log
 
@@ -146,7 +148,7 @@ console.log(someNumber);
 
 Try creating your own functions and print the result.
 
-### 6. Use if statements
+### 8. Use if statements
 
 JavaScript to conditionally run code based on conditions we provide.  It provides a feature called if statements to help us with this.  Lets walk through an example.
 
@@ -211,7 +213,7 @@ if (numberOfOranges < numberOfApples) {
 
 Try creating your own if statements.
 
-### 7. Grab data from a webpage 
+### 9. Grab data from a webpage 
 
 Lets start off by creating an input box on webpage.  We can do this by adding the following element to our html page.
 
@@ -230,7 +232,7 @@ console.log('myInput Value: ' + myInputValue);
 
 On the first line, we use the `document` object, which is globally available.  This means JavaScript can always access it.  We then tell the document object we want to grab one of its children, also called an element in this case, by their id.  We do this by calling the `getElementById` function and providing it the id of our textbox.  It returns the textbox object, which we can grab the value from by saying `myInput.value`.
 
-### 8. Using buttons and alerts 
+### 10. Using buttons and alerts 
 
 We can try to make our webpage a little more interactive with buttons and alerts.  Lets create a button within our webpage next to the input.
 
