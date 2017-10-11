@@ -150,18 +150,23 @@ Try creating your own functions and print the result.
 
 ### 6. Use Alerts
 
-An alert, in the form of a function, will prompt a popup box that will appear in the browser, displaying a message to the user. An alert box is often used if you want to make sure information comes through to the user.
+The alert function, will display text in a dialog box that pops up on the screen, sharing a message with the user. An alert box is often used if you want to make sure information comes through to the user.
 
 ```
 alert("I am an alert box!");
 ```
 
-The alert dialog should be used for messages which do not require any response on the part of the user, other than the acknowledgement of the message.
+The alert dialog should be used for messages which do not require any response on the part of the user, other than the acknowledgement of the message. When an alert box pops up, the user will have to click "OK" to proceed. 
 
-When an alert box pops up, the user will have to click "OK" to proceed. 
+Dialog boxes are modal windows - they prevent the user from accessing the rest of the program's interface until the dialog box is closed. For this reason, be careful and do not overuse the use of a dialog box (or modal window).
 
-Dialog boxes are modal windows - they prevent the user from accessing the rest of the program's interface until the dialog box is closed. For this reason, you should not overuse any function that creates a dialog box (or modal window
-
+Alerts can also be triggered within a function:
+```
+ function showAlert() { 
+   alert ("Hello world!");
+  }
+  showAlert();
+```
 
 ### 8. Use if statements
 
