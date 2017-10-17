@@ -2,12 +2,12 @@
 
 1. Print with console.log
 2. Create variables
-3. Solve math problems 
-4. Create a random number
-5. Create functions
-6. Use alerts
+3. Solve math problems
+4. Use alerts
+5. Use if statements
+6. Create functions
 7. Variable scope
-8. Use if statements
+8. Create a random number
 9. Grab data from a webpage 
 10. Use buttons and alerts 
 
