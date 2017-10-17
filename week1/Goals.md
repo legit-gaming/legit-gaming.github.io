@@ -281,9 +281,9 @@ JavaScript variables have "function scope". A variable can have **local** or **g
 
 Scope determines the accessibility (visibility) of these variables and can be determined based on the location or placement of the variables within your code. 
 
-For example, a variable defined inside a function is not accessible (visible) from outside the function. It becomes **local** to that function.
+For example, a variable defined inside a function is not accessible (visible) from outside the function. It becomes **LOCAL** to that function.
 
-Here's an example of a variable with **local** scope:
+Here's an example of a variable with **LOCAL** scope:
 
 ```
 //code here cannot use color
@@ -325,7 +325,8 @@ function secondFavColor(){
 }
 ```
 
-A variable with **global** scope, is declared outside a function and can be accessed anywhere throughout your code.
+
+A variable with **GLOBAL** scope, is declared outside a function and can be accessed anywhere throughout your code.
 
 var color = " ";
 
