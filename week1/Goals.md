@@ -277,6 +277,67 @@ console.log(noDecimalsRandomNumber);
 Now try creating your own random numbers.
 
 ### 9. Variable Scope
+JavaScript variables have "function scope". A variable can have **local** or **global** scope. 
+
+Scope determines the accessibility (visibility) of these variables and can be determined based on the location or placement of the variables within your code. 
+
+For example, a variable defined inside a function is not accessible (visible) from outside the function. It becomes **local** to that function.
+
+Here's an example of a variable with **local** scope:
+
+```
+//code here cannot use color
+
+function favColor(){
+  var color = "blue";
+  //code here can use color
+  console.log("My favorite color is " + color);
+  //code here can use color
+}
+
+//code here cannot use color
+```
+As you can see in the above example, we created a new variable called 'color' within the function. Since it is local, it means that the variable belongs to the function and is not visible or cannot be accessed by any other code outside that function. 
+
+For example, in the following code, the alert outside of the function would receive an error when trying to print - because it doesn't recognize the color variable.
+
+```
+function favColor(){
+  var color = "blue";
+  console.log("My favorite color is " + color);
+}
+
+alert(color);
+```
+
+Local variables are created when a function starts, and deleted when the function is completed. Since local variables are only recognized inside their functions, variables with the same name can be used in different functions.
+For example:
+
+```
+function favColor(){
+  var color = "blue";
+  console.log("My favorite color is " + color);
+}
+
+function secondFavColor(){
+   var color = "black"'
+   console.log("My second favorite color is " + color);
+}
+```
+
+A variable with **global** scope, is declared outside a function and can be accessed anywhere throughout your code.
+
+var color = " ";
+
+```
+function favColor(){
+  color = "blue";
+}
+
+alert("My favorite color is " + color);
+```
+
+In the above example, both the function and the alert would successfully read and use the color variable.
 
 Now, try playing around with locally and globally scoped variables.
 
@@ -301,6 +362,6 @@ On the first line, we use the `document` object, which is globally available.  T
 
 Try this out!
 
-### 11. Using <div> tags
+### 11. Using &lt;div> tags
 
 Take a shot on your own!
