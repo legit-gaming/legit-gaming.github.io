@@ -20,6 +20,7 @@
 
 ##### Step 9
 1. Add a div tag wtih the following attributes, class="results", id="results". This tag should be added right before the closing body tag &lt;/body>.
+2. Complete Step 9 in the JavaScript file
 
 
 **JavaScript**
@@ -41,3 +42,49 @@
 2. Delete the alert from step 1, where you displayed the secret number. 
 3. Move your console.log statement from Step 1 to the end of the guess funtion.
 4. Flip over to your html file now (Step 3) to add a button that will call this guess function.
+
+##### Step 4
+1. Set your secret number variable at the top of your file to 0. 
+2. Create a Random Number function [call it something like generateRandomNum()], above your guess function. 
+3. Within the Random Number function, reset your secret number variable to a random number between 0 and 100. 
+* **Make sure to call your function! 
+4. Play the game multiple times and notice each time the secret number will change! To replay - click the refresh button next to preview in the display window to the right.
+
+##### Step 5
+1. Create a new variable (before of all the functions) [called something like var message], which will be a global variable at the top of your file , and set the value to an empty string "". This variable will store the messsage (too high, too low, etc.), that you will present to the user. 
+2. Create a new function which we will use to trigger the message result you will present to the player [e.g. resultMessage()]. 
+3. Inside the result message function, use an alert to display the message variable to the user, and also print your message variable along with the secret number [e.g. message + " " + secretNum] to the console. 
+* **Note: This message will not print when you run your program because we are not calling the funtion anywhere...yet!
+
+##### Step 6
+1. Within your if/else conditions, remove the alert function and instead set your display message to your message variable which you created in step 5.
+2. Before the end of your guess function, call your resultMessage function. 
+3. Comment out the console.log statement within the guess function.
+
+##### Step 7 - Flip over to your html file to create an input field to collect your users guess
+
+##### Step 8
+1. Set your user's guess number variable at the top of your file to 0.
+2. At the top of your guess function, before the if statement, add a line of code to set the guess number variable [e.g. guessedNum] to the number input by the user. Hint: Use document.getElementById to do this.
+3. Run your game by entering a guess into the input field and selecting the guess/submit button. Keep guessing until you are correct. Then reset the game by selecting the refresh arrow next to Preview in the display window to the right.
+
+##### Step 9 - (Start with HTML step 9)
+Let's now display the message to the user on the screen versus in the alert window
+1. Start with step 9 in the html file
+
+* Once your <div> tag has been added within the html, let's return the message to it.
+2. Remove or comment out the alert from the results message function.
+3. Within the result message function [e.g. resultMessage] create a new variable to hold the result [e.g. var results].
+4. Set this variable to the id for your div, using document.getElementById
+5. Add the following line of code below this variable    
+* **results.innerHTML = "&lt;p>" + message + "&lt;/p>";**
+
+* **Note: in the above line of code, results is the variable name you created in step 2. Message is the variable you created in step 5 to hold the message you share with the user.
+* **The above line of code will add the HTML paragraph (made up of the message) to the location of the div tags on the HTML page.
+
+##### Step 10 - Finally, let's track how many times it takes the user to guess the correct number.
+1. Create a new global variable at the top of your file to capture the count of times a user guesses. [e.g. var count].
+2. At the end of the generate random number function, set the count variable to 0. We do this again, so that when we play a new game and pick a new secret number, we also are sure to reset the counter back to 0.
+3. At the top of the guess function, increase the count by 1. You can do this many ways, but two examples are using count++  or count = count + 1
+4. Update the messaging within your if/else statement, so that when the correct number is guessed, the message displayed to the user also tells them how many tries it took them.
+* **We put this in the guess function, because it is called every time we select the guess button to submit another try. Ultimately, this counter tracks the number of times we hit the button - or take a guess.
