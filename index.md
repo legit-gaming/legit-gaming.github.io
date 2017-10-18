@@ -33,9 +33,9 @@ Creating games with JavaScript
   * Properly Shutdown Computers
 
 ### Week 3 Agenda
-* Introductions
-* Hand out Namecards
-* Review material covered in Week 2: Thimble Exercises (Console, Variables, Solving Math Problems)
+* Introductions
+* Hand out Namecards
+* Review material covered in Week 2: Thimble Exercises (Console, Variables, Solving Math Problems)
 * Complete Thimble Exercises for the Solve Math Problems Section
 * [Understanding the Basics: Alerts](https://legit-gaming.github.io/week1/Goals.html)
 * [Review Number Guessing Game Example](https://legit-gaming.github.io/number-guessing-game/)
