@@ -22,8 +22,9 @@
 1. Add a div tag wtih the following attributes, class="results", id="results". This tag should be added right before the closing body tag &lt;/body>.
 2. Complete Step 9 in the JavaScript file
 
+<br>
 
-**JavaScript**
+#### **JavaScript**
 
 ##### Step 1 (START WITH HTML Step 1)
 1. Create a variable [such as var secretNum] to capture the secret number (computer generated number). For now, set this variable to any number between 0 and 100. 
