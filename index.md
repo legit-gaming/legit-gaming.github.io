@@ -35,12 +35,12 @@ Creating games with JavaScript
 ### Week 3 Agenda
 * Introductions
 * Hand out Namecards
-* Review material covered in Week 2: Thimble Exercises (Console, Variables, Solving Math Problems)
+* Review material covered in Week 2: Thimble Exercises (Console and Variables)
 * Complete Thimble Exercises for the Solve Math Problems Section
 * [Understanding the Basics: Alerts](https://legit-gaming.github.io/week1/Goals.html)
 * [Review Number Guessing Game Example](https://legit-gaming.github.io/number-guessing-game/)
-* Begin work on Number Guessing Game Project - Complete Step 1
-  * [Number Guessing Game Template](https://thimbleprojects.org/legitliberty/331560/)
+* Begin work on Number Guessing Game Project - Complete Step 1
+  * [Number Guessing Game Template](https://thimbleprojects.org/legitliberty/331560/)
 * [Understanding the Basics: If Statements](https://legit-gaming.github.io/week1/Goals.html)
 * Number Guessing Game Project - Complete Step 2
 * Closing Activities  
