@@ -12,7 +12,7 @@ Creating games with JavaScript
 * Go through [HTML Overview/Refresh](HtmlRefresh.md)
 * Review [What is JavaScript?](WhatIsJavaScript.md)
 * Thimble Project Setup (USE CHROME)
-* [Understanding the Basics: Topics 1-3](https://legit-gaming.github.io/week1/Goals.html) (Print Console – Random Numbers)
+* [Understanding the Basics: Topics 1-3](https://legit-gaming.github.io/week1/Goals.html) (Print Console – Math Problems)
 * Closing Activities
   * Turn in Photo Release Form
   * Turn in Namecard
@@ -23,9 +23,8 @@ Creating games with JavaScript
 *	Introductions
 *	Hand out Namecards
 *	Review Program [Ground Rules](GroundRules.md) 
-*	Review completed work from week 1 (Print Console – started Solve math problems)
 *	Open Thimble Projects (USE CHROME)
-*	[Understanding the Basics: Topics 1-3](https://legit-gaming.github.io/week1/Goals.html) (Print Console - Random Numbers with Thimble Exercises)
+*	[Understanding the Basics: Topics 1-3](https://legit-gaming.github.io/week1/Goals.html) (Complete Thimble Exercises)
 * Closing Activities
   * Collect Photo Release Form
   * Turn in Namecard
