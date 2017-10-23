@@ -365,4 +365,60 @@ Try this out!
 
 ### 11. Using &lt;div> tags
 
+A &lt;div> tag is used to group a section of your html content together. It groups a block of elements/tags (such as a &lt;p>, &lt;img>), so that CSS/formatting can be similar across the elements, or if they share the same attributes such as 'id'.
+
+Let's start with sharing formatting. In the following example, all elements within the div tag will be styled with the color green.
+
+```
+<div style="color:green">
+  <h2> This header will be the color green. </h2>
+  <p> All of the text within these paragraph tags will be green. </p>
+</div>
+```
+<br/>
+
+A div tag can hold both an 'id' and 'class' attribute, which allows us to categorize this section of content. 
+
+A 'class' attribute is assigned to set the styling/formatting for the section within the CSS file. 
+
+The 'id' attribute helps us to link and point our Javascript code to certain sections of our HTML. We can even use JavaScript to pass html elements that will populate the &lt;div> tags.
+
+Take a look at the following HTML, CSS, and JavaScript files:
+
+**CSS**
+```
+.paragraph2 {
+  color: blue;
+}
+```
+
+**HTML**
+```
+<html>
+<head>
+<script type="text/javascript"></script>
+</head>
+
+<body>
+  <p> This is paragraph 1 </p>
+  
+  <div id="paragraph2" class="paragraph2"></div>
+</body>
+
+</html>
+```
+
+**JavaScript**
+<br/>
+Example 1:
+```
+document.getElementById("paragraph2").innerHTML = "This is paragraph 2";
+```
+
+Example 2:
+```
+var content = document.getElementById("paragraph2");    
+content.innerHTML = '<p>' + "This is paragraph 2" + '</p>';
+```
+
 Take a shot on your own!
