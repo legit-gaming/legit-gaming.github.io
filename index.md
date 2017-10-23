@@ -80,8 +80,8 @@ Creating games with JavaScript
   * Properly Shutdown Computers
 
 ### Week 6
-* Introductions
-* Hand out Namecards
+* Introductions
+* Hand out Namecards
 * Closing Activities
   * Collect Photo Release Form
   * Turn in Namecard
