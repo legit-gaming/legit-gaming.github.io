@@ -1,5 +1,5 @@
 
-## Code Girl: Game Makers
+## Code Girl: Game Makers Agenda
 
 Creating games with JavaScript
 
@@ -31,7 +31,7 @@ Creating games with JavaScript
   * Group Selfie
   * Properly Shutdown Computers
 
-### Week 3 Agenda
+### Week 3
 * Introductions
 * Hand out Namecards
 * Review material covered in Week 2: Thimble Exercises (Console and Variables)
@@ -48,13 +48,34 @@ Creating games with JavaScript
   * Group Selfie  
   * Properly Shutdown Computers
 
-### Week 4 Agenda
+### Week 4
 * Introductions
 * Hand out Namecards
 * [Review If Statements and work on Thimble Exercises](https://legit-gaming.github.io/week1/Goals.html)
 * Number Guessing Game Project - Complete Step 2
+* [Understanding the Basics: Functions & Adding Buttons](https://legit-gaming.github.io/week1/Goals.html)
+* Number Guessing Game Project - Complete Step 3
+* [Understanding the Basics: Generating Random Numbers](https://legit-gaming.github.io/week1/Goals.html)
+* Number Guessing Game Project - Complete Step 4
 * Closing Activities    
   * Collect Photo Release Form
   * Turn in Namecard    
   * Group Selfie    
+  * Properly Shutdown Computers
+
+### Week 5
+* Introductions
+* Hand out Namecards
+* [Review Understanding the Basics (Functions - Random Numbers)](https://legit-gaming.github.io/week1/Goals.html)
+* Review progress of Number Guessing Game Project
+* [Understanding the Basics: Variable Scope](https://legit-gaming.github.io/week1/Goals.html)
+* Number Guessing Game Project - Complete Steps 5 & 6
+* [Understanding the Basics: Grabbing Data from a Webpage](https://legit-gaming.github.io/week1/Goals.html)
+* Number Guessing Game Project - Complete Steps 7 & 8
+* [Understanding the Basics: Using &lt;div> Tags](https://legit-gaming.github.io/week1/Goals.html)
+* Number Guessing Game Project - Complete Steps 9 & 10
+* Closing Activities      
+  * Collect Photo Release Form  
+  * Turn in Namecard      
+  * Group Selfie      
   * Properly Shutdown Computers
