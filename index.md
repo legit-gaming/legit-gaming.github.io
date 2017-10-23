@@ -47,3 +47,14 @@ Creating games with JavaScript
   * Turn in Namecard  
   * Group Selfie  
   * Properly Shutdown Computers
+
+### Week 4 Agenda
+* Introductions
+* Hand out Namecards
+* [Review If Statements and work on Thimble Exercises](https://legit-gaming.github.io/week1/Goals.html)
+* Number Guessing Game Project - Complete Step 2
+* Closing Activities    
+  * Collect Photo Release Form
+  * Turn in Namecard    
+  * Group Selfie    
+  * Properly Shutdown Computers
