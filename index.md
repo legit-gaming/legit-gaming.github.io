@@ -78,3 +78,22 @@ Creating games with JavaScript
   * Turn in Namecard      
   * Group Selfie      
   * Properly Shutdown Computers
+
+### Week 6
+* Introductions
+* Hand out Namecards
+* Closing Activities
+  * Collect Photo Release Form
+  * Turn in Namecard
+  * Group Selfie
+  * Properly Shutdown Computers
+  
+### Week 7
+* Introductions
+* Hand out Namecards
+* Closing Activities
+  * Complete and Turn in Closing Survey
+  * Collect Photo Release Form  
+  * Turn in Namecard
+  * Group Selfie
+  * Properly Shutdown Computers
