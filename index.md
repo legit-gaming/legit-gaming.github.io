@@ -41,7 +41,6 @@ Creating games with JavaScript
 * Begin work on Number Guessing Game Project - Complete Step 1
   * [Number Guessing Game Template](https://thimbleprojects.org/legitliberty/331560/)
 * [Understanding the Basics: If Statements](https://legit-gaming.github.io/week1/Goals.html)
-* Number Guessing Game Project - Complete Step 2
 * Closing Activities  
   * Collect Photo Release Form  
   * Turn in Namecard  
