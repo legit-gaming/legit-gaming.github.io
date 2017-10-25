@@ -408,6 +408,7 @@ Take a look at the following HTML, CSS, and JavaScript files:
 ```
 
 **JavaScript**
+
 Example 1:
 ```javascript
 document.getElementById("paragraph2").innerHTML = "This is paragraph 2";
