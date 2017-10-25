@@ -365,35 +365,34 @@ Try this out!
 
 ### 11. Using &lt;div> tags
 
-A &lt;div> tag is used to group a section of your html content together. It groups a block of elements/tags (such as a &lt;p>, &lt;img>), so that CSS/formatting can be similar across the elements, or if they share the same attributes such as 'id'.
+A `&lt;div>` tag is used to group a section of your html content together. It groups a block of elements/tags (such as a `&lt;p>`, `&lt;img>`), which can make it easier to organize and style your webpage with css.
 
 Let's start with sharing formatting. In the following example, all elements within the div tag will be styled with the color green.
 
-```
+```html
 <div style="color:green">
   <h2> This header will be the color green. </h2>
   <p> All of the text within these paragraph tags will be green. </p>
 </div>
 ```
-<br/>
 
-A div tag can hold both an 'id' and 'class' attribute, which allows us to categorize this section of content. 
+A div tag can hold both an 'id' and 'class' attribute, which allows us to identify this section of content. 
 
-A 'class' attribute is assigned to set the styling/formatting for the section within the CSS file. 
+A 'class' attribute with the same name can be used on multiple elements on our webpage and we can use this to style multiple elements in the same way. 
 
-The 'id' attribute helps us to link and point our Javascript code to certain sections of our HTML. We can even use JavaScript to pass html elements that will populate the &lt;div> tags.
+The 'id' attribute must have a unique name and that name can only be used on one element on your webpage.  We can also use JavaScript to grab an element by its unique id.
 
 Take a look at the following HTML, CSS, and JavaScript files:
 
 **CSS**
-```
+```css
 .paragraph2 {
   color: blue;
 }
 ```
 
 **HTML**
-```
+```html
 <html>
 <head>
 <script type="text/javascript"></script>
@@ -409,14 +408,13 @@ Take a look at the following HTML, CSS, and JavaScript files:
 ```
 
 **JavaScript**
-<br/>
 Example 1:
-```
+```javascript
 document.getElementById("paragraph2").innerHTML = "This is paragraph 2";
 ```
 
 Example 2:
-```
+```javascript
 var content = document.getElementById("paragraph2");    
 content.innerHTML = '<p>' + "This is paragraph 2" + '</p>';
 ```
