@@ -211,39 +211,38 @@ console.log(someNumber);
 Try creating your own functions and print the result.
 
 ### 7. Add buttons
-We can try to make our webpage a little more interactive with buttons and alerts.  Let's create a button within our webpage next to the input.
+We can try to make our webpage a little more interactive using buttons.  Buttons can be created in two ways: using the an input tag or button tag. 
+ 
+Let's start with &lt;button>
 
 ```html
 <button>Click Me</button>
+```
+We can also add attributes to our button tag. For example, adding the id attribute will give a name to this button, making it uniwue, and also allowing it to be referenced by your JavaScript file if/when needed.
+
+```html
+<button id="buttonSubmit">Click Me</button>
 ```
 
 How do we make our button run JavaScript when it is clicked?  We can use the onclick attribute!
 
 ```html
-<button onclick="clickMe()">Click Me</button>
+<button id="buttonSubmit" onclick="clickMe()">Click Me</button>
 ```
 
 Now when the button is clicked it will run the clickMe() function in our Javascript.  However, we do not have a clickMe function, so let's write it.
 
 ```javascript
 function clickMe() {
-  var myInput = document.getElementById('myInput');
-  var myInputValue = myInput.value;
-
-  console.log('myInput Value: ' + myInputValue);
-}
+ console.log("Button clicked");
+ }
 ```
 
-We took the code we wrote from earlier, so now when we click the button it will print the value of the text box to console.  We can then use an alert so that users can view the value on the screen instead of the console.
-
-```javascript
-function clickMe() {
-  var myInput = document.getElementById('myInput');
-  var myInputValue = myInput.value;
-
-  alert('myInput Value: ' + myInputValue);
-}
+As mentioned above, you can do the same thing with &lt;input>. Take a look!
+```html
+<input id="inputSubmit" type="button" value="Click Me" onclick="clickMe()"/>
 ```
+As you can see, it is very similar to &lt;button>, but &lt;input> has it's own specific attributes: type - which sets it as a button component on the page, value - name visible to the user on the button. Like &lt;button>, &lt;input> uses the onclick attribute to call the JavaScript function - in this case, clickMe() 
 
 Try creating your own buttons.
 
@@ -360,6 +359,12 @@ console.log('myInput Value: ' + myInputValue);
 ```
 
 On the first line, we use the `document` object, which is globally available.  This means JavaScript can always access it.  We then tell the document object we want to grab one of its children, also called an element in this case, by their id.  We do this by calling the `getElementById` function and providing it the id of our textbox.  It returns the textbox object, which we can grab the value from by saying `myInput.value`.
+
+```javascriptfunction clickMe() {  var myInput = document.getElementById('myInput');  var myInputValue = myInput.value;
+  console.log('myInput Value: ' + myInputValue);}```
+We took the code we wrote from earlier, so now when we click the button it will print the value of the text box to console.  We can then use an alert so that users can view the value on the screen instead of the console.
+```javascriptfunction clickMe() {  var myInput = document.getElementById('myInput');  var myInputValue = myInput.value;
+  alert('myInput Value: ' + myInputValue);}```
 
 Try this out!
 
