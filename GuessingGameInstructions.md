@@ -89,3 +89,16 @@ Let's now display the message to the user on the screen versus in the alert wind
 3. At the top of the guess function, increase the count by 1. You can do this many ways, but two examples are using count++  or count = count + 1
 4. Update the messaging within your if/else statement, so that when the correct number is guessed, the message displayed to the user also tells them how many tries it took them.
 * **We put this in the guess function, because it is called every time we select the guess button to submit another try. Ultimately, this counter tracks the number of times we hit the button - or take a guess.
+
+<br>
+
+#### **Bonus Features**
+* Allow the user to set the guess range. Right now we have the code defaulted to 100. Take input from the user to set that value. e.g. 20, 50, 200
+* Make the messages back to the user more dynamic
+  * Collect the user's name and print it in a response
+  * If the user guesses an inccorect number, tell them how 'warm' or 'cold' they are based on how far away their guess is from the correct number.
+* Add more styling to the page using CSS
+  * Here are some Thimble Exercises you can work on and use as a guide - Choose Remix and follow the Tutorial Tab above the display screen:
+    * [Keep Calm Poster - Good Way to Learn HTML and CSS](https://thimble.mozilla.org/en-US/user/legitliberty/1255829)
+    * [CSS Building Blocks (How to Style a &lt;div> tag)](https://thimble.mozilla.org/en-US/user/legitliberty/1255775)
+    * [HTML Burger - no Tutorial but a good chance to play around with CSS](https://thimble.mozilla.org/en-US/user/legitliberty/1255828)
