@@ -106,6 +106,7 @@ Creating games with JavaScript
 * Hand out Namecards
 * Launch Curriculum Home Page
 * Enhance Number Guessing Game with New Features and Styling
+  * Ideas can be found under the Bonus section on the [Project Step Instructions Page](https://legit-gaming.github.io/GuessingGameInstructions.html)
 * Group CS Activity
 * Closing Activities
   * Complete and Turn in Closing Survey
