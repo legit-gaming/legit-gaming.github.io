@@ -46,8 +46,8 @@ Creating games with JavaScript
 * Complete Thimble Exercises for the Solve Math Problems Section
 * Understanding the Basics: Alerts
 * [Review Number Guessing Game Example](https://legit-gaming.github.io/number-guessing-game/)
-* Begin work on Number Guessing Game Project - Complete Step 1
-  * [Number Guessing Game Template](https://thimbleprojects.org/legitliberty/331560/)
+  * Begin work on Number Guessing Game Project - Complete Step 1
+    * [Number Guessing Game Template](https://thimbleprojects.org/legitliberty/331560/)
 * Understanding the Basics: If Statements
 * Closing Activities  
   * Collect Photo Release Forms  
@@ -60,8 +60,8 @@ Creating games with JavaScript
 * Hand out Namecards
 * Launch Curriculum Home Page
 * Review If Statements and work on Thimble Exercises
-* Number Guessing Game Project - Complete Step 2
-* Understanding the Basics: Functions & Adding Buttons
+  * Number Guessing Game Project - Complete Step 2
+* Understanding the Basics: Functions
 * Closing Activities    
   * Turn in Photo Release Form
   * Turn in Namecard    
@@ -75,9 +75,9 @@ Creating games with JavaScript
 * Review progress of Number Guessing Game Project
 * Review Functions and work on Thimble Exercises
 * Understanding the Basics: Adding Buttons
-* Number Guessing Game Project - Complete Step 3
+  * Number Guessing Game Project - Complete Step 3
 * Understanding the Basics: Generating Random Numbers
-* Number Guessing Game Project - Complete Step 4
+  * Number Guessing Game Project - Complete Step 4
 * Closing Activities      
   * Turn in Photo Release Form
   * Turn in Namecard      
@@ -91,11 +91,11 @@ Creating games with JavaScript
 * Review Understanding the Basics (Functions - Random Numbers)
 * Review progress of Number Guessing Game Project
 * Understanding the Basics: Variable Scope
-* Number Guessing Game Project - Complete Steps 5 & 6
+  * Number Guessing Game Project - Complete Steps 5 & 6
 * Understanding the Basics: Grabbing Data from a Webpage
-* Number Guessing Game Project - Complete Steps 7 & 8
+  * Number Guessing Game Project - Complete Steps 7 & 8
 * Understanding the Basics: Using &lt;div> Tags
-* Number Guessing Game Project - Complete Steps 9 & 10
+  * Number Guessing Game Project - Complete Steps 9 & 10
 * Closing Activities
   * Turn in Namecard
   * Group Selfie
