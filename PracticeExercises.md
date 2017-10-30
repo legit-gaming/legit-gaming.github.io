@@ -81,7 +81,7 @@ C.  Create a function in your JavaScrip file that prints a message to the consol
 **Exercises:** <br>
 A.  Return a random number between 0 and 20, not including 20 <br><br>
 B.  Return a random number between 0 and 20, including 20 - number should have 3 decimal places <br><br>
-C.  Return a random number between 5 and 15, number should have no decimal place <br><br>
+C.  Return a random number between 5 and 15, number should have no decimal places <br><br>
 D.  Return a random number between 0 and 5 (with no decimal places) and input it into the following equation <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Random number is r in the following equation:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (r*2) + 4
