@@ -53,9 +53,6 @@ Creating games with JavaScript
 * [Review If Statements and work on Thimble Exercises](https://legit-gaming.github.io/week1/Goals.html)
 * Number Guessing Game Project - Complete Step 2
 * [Understanding the Basics: Functions & Adding Buttons](https://legit-gaming.github.io/week1/Goals.html)
-* Number Guessing Game Project - Complete Step 3
-* [Understanding the Basics: Generating Random Numbers](https://legit-gaming.github.io/week1/Goals.html)
-* Number Guessing Game Project - Complete Step 4
 * Closing Activities    
   * Collect Photo Release Form
   * Turn in Namecard    
@@ -63,6 +60,21 @@ Creating games with JavaScript
   * Properly Shutdown Computers
 
 ### Week 5
+* Introductions
+* Hand out Namecards
+* Review progress of Number Guessing Game Project
+* [Review Functions and work on Thimble Exercises](https://legit-gaming.github.io/week1/Goals.html)
+* [Understanding the Basics: Adding Buttons](https://legit-gaming.github.io/week1/Goals.html)
+* Number Guessing Game Project - Complete Step 3
+* [Understanding the Basics: Generating Random Numbers](https://legit-gaming.github.io/week1/Goals.html)
+* Number Guessing Game Project - Complete Step 4
+* Closing Activities      
+  * Collect Photo Release Form  
+  * Turn in Namecard      
+  * Group Selfie      
+  * Properly Shutdown Computers
+
+### Week 6
 * Introductions
 * Hand out Namecards
 * [Review Understanding the Basics (Functions - Random Numbers)](https://legit-gaming.github.io/week1/Goals.html)
@@ -73,15 +85,6 @@ Creating games with JavaScript
 * Number Guessing Game Project - Complete Steps 7 & 8
 * [Understanding the Basics: Using &lt;div> Tags](https://legit-gaming.github.io/week1/Goals.html)
 * Number Guessing Game Project - Complete Steps 9 & 10
-* Closing Activities      
-  * Collect Photo Release Form  
-  * Turn in Namecard      
-  * Group Selfie      
-  * Properly Shutdown Computers
-
-### Week 6
-* Introductions
-* Hand out Namecards
 * Closing Activities
   * Collect Photo Release Form
   * Turn in Namecard
