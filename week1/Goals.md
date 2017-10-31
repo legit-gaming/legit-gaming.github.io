@@ -24,7 +24,7 @@ console.log(4.5);
 
 The `console.log()` feature takes what we call parameters, such as text or numbers, and prints the provided input.  
 
-Try changing the inputs and look at the results.
+[Try changing the inputs and look at the results.](https://legit-gaming.github.io/PracticeExercises.html)
 
 ### 2. Create Variables
 
@@ -40,7 +40,7 @@ console.log(favoriteNumber);
 
 To create a variable, we start off by saying `var` to tell JavaScript that we want a variable, then we give it a name.  Once we have a name, then we can set it equal to the value we want.  In the examples above we set a variable equal to some text and another variable equal to a number.  Instead of needing to type out the text or number again, we can now give `console.log()` our variables instead.  
 
-Try creating your own variables and printing them to console.
+[Try creating your own variables and printing them to console.](https://legit-gaming.github.io/PracticeExercises.html)
 
 ### 3. Solve math problems
 
@@ -64,7 +64,7 @@ var amountOfFruit = amountOfApples + amountOfOranges + amountOfGrapes;
 console.log(amountOfFruit);
 ```
 
-Try creating your own variables and math problems.
+[Try creating your own variables and math problems.]9https://legit-gaming.github.io/PracticeExercises.html)
 
 ### 4. Use Alerts
 
@@ -85,7 +85,7 @@ Alerts can also be triggered within a function:
   }
   showAlert();
 ```
-Try creating your own alerts and see what displays on the screen.
+[Try creating your own alerts and see what displays on the screen.](https://legit-gaming.github.io/PracticeExercises.html)
 
 ### 5. Use if statements
 
@@ -150,7 +150,7 @@ if (numberOfOranges < numberOfApples) {
 }
 ```
 
-Try creating your own if statements.
+[Try creating your own if statements.](https://legit-gaming.github.io/PracticeExercises.html)
 
 ### 6. Create functions
 
@@ -208,7 +208,7 @@ var someNumber = getRandomNumber(15);
 console.log(someNumber);
 ```
 
-Try creating your own functions and print the result.
+[Try creating your own functions and print the result.](https://legit-gaming.github.io/PracticeExercises.html)
 
 ### 7. Add buttons
 We can try to make our webpage a little more interactive using buttons.  Buttons can be created in two ways: using the an input tag or button tag. 
@@ -244,7 +244,7 @@ As mentioned above, you can do the same thing with &lt;input>. Take a look!
 ```
 As you can see, it is very similar to &lt;button>, but &lt;input> has it's own specific attributes: type - which sets it as a button component on the page, value - name visible to the user on the button. Like &lt;button>, &lt;input> uses the onclick attribute to call the JavaScript function - in this case, clickMe() 
 
-Try creating your own buttons.
+[Try creating your own buttons.](https://legit-gaming.github.io/PracticeExercises.html)
 
 ### 8. Create a random number
 
@@ -273,7 +273,7 @@ var noDecimalsRandomNumber = Math.floor(randomNumber);
 console.log(noDecimalsRandomNumber);
 ```
 
-Now try creating your own random numbers.
+[Now try creating your own random numbers.](https://legit-gaming.github.io/PracticeExercises.html)
 
 ### 9. Variable Scope
 JavaScript variables have "function scope". A variable can have **local** or **global** scope. 
@@ -339,7 +339,7 @@ alert("My favorite color is " + color);
 
 In the above example, both the function and the alert would successfully read and use the color variable.
 
-Now, try playing around with locally and globally scoped variables.
+[Now, try playing around with locally and globally scoped variables.](https://legit-gaming.github.io/PracticeExercises.html)
 
 ### 10. Grab data from a webpage 
 
@@ -366,7 +366,7 @@ We took the code we wrote from earlier, so now when we click the button it will 
 ```javascriptfunction clickMe() {  var myInput = document.getElementById('myInput');  var myInputValue = myInput.value;
   alert('myInput Value: ' + myInputValue);}```
 
-Try this out!
+[Try this out!](https://legit-gaming.github.io/PracticeExercises.html)
 
 ### 11. Using &lt;div> tags
 
@@ -425,4 +425,4 @@ var content = document.getElementById("paragraph2");
 content.innerHTML = '<p>' + "This is paragraph 2" + '</p>';
 ```
 
-Take a shot on your own!
+[Take a shot on your own!](https://legit-gaming.github.io/PracticeExercises.html)
