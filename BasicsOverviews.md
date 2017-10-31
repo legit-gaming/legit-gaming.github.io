@@ -368,9 +368,9 @@ We took the code we wrote from earlier, so now when we click the button it will 
 
 [Try this out!](https://legit-gaming.github.io/PracticeExercises.html)
 
-### 11. Using &lt;div> tags
+### 11. Using <div> tags
 
-A `&lt;div>` tag is used to group a section of your html content together. It groups a block of elements/tags (such as a `&lt;p>`, `&lt;img>`), which can make it easier to organize and style your webpage with css.
+A `<div>` tag is used to group a section of your html content together. It groups a block of elements/tags (such as a `<p>`, `<img>`), which can make it easier to organize and style your webpage with css.
 
 Let's start with sharing formatting. In the following example, all elements within the div tag will be styled with the color green.
 
