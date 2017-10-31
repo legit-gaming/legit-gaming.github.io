@@ -380,7 +380,7 @@ function clickMe() { 
 
 [Try this out!](https://legit-gaming.github.io/PracticeExercises.html)
 
-### 11. Using <div> tags
+### 11. Using &lt;div> tags
 
 A `<div>` tag is used to group a section of your html content together. It groups a block of elements/tags (such as a `<p>`, `<img>`), which can make it easier to organize and style your webpage with css.
 
