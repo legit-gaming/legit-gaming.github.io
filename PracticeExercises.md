@@ -1,4 +1,4 @@
-## Understanding the Basics: Thimble Exercises
+## Understanding the Basics: Thimble Practice Exercises
 
 ### Before You Get Started
 * **Make sure to add: <script src="script.js"></script> within the &lt;head> tags in your .html file**
