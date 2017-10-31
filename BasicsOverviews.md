@@ -361,18 +361,18 @@ console.log('myInput Value: ' + myInputValue);
 On the first line, we use the `document` object, which is globally available.  This means JavaScript can always access it.  We then tell the document object we want to grab one of its children, also called an element in this case, by their id.  We do this by calling the `getElementById` function and providing it the id of our textbox.  It returns the textbox object, which we can grab the value from by saying `myInput.value`.
 
 ```javascript
-function clickMe() {  
- var myInput = document.getElementById('myInput');  
+function clickMe() {
+ var myInput = document.getElementById('myInput');
  var myInputValue = myInput.value;
- console.log('myInput Value: ' + myInputValue);
+console.log('myInput Value: ' + myInputValue);
 }
 ```
     
 We took the code we wrote from earlier, so now when we click the button it will print the value of the text box to console.  We can then use an alert so that users can view the value on the screen instead of the console.
 
 ```javascript
-function clickMe() {  
- var myInput = document.getElementById('myInput');  
+function clickMe() {
+ var myInput = document.getElementById('myInput');
  var myInputValue = myInput.value;
  alert('myInput Value: ' + myInputValue);
 }
