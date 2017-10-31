@@ -107,6 +107,11 @@ Creating games with JavaScript
 * Launch Curriculum Home Page
 * Enhance Number Guessing Game with New Features and Styling
   * Ideas can be found under the Bonus section on the [Project Step Instructions Page](https://legit-gaming.github.io/GuessingGameInstructions.html)
+* Number Guessing Game: Bonus Features
+  * Collect and display name in hints
+  * Show previous guesses on the page
+  * Restart button that starts the game over
+  * Add a countdown clock, user has to guess before time runs out
 * Group CS Activity
 * Closing Activities
   * Complete and Turn in Closing Survey
