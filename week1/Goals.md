@@ -64,7 +64,7 @@ var amountOfFruit = amountOfApples + amountOfOranges + amountOfGrapes;
 console.log(amountOfFruit);
 ```
 
-[Try creating your own variables and math problems.]9https://legit-gaming.github.io/PracticeExercises.html)
+[Try creating your own variables and math problems.](https://legit-gaming.github.io/PracticeExercises.html)
 
 ### 4. Use Alerts
 
