@@ -15,7 +15,7 @@ Creating games with JavaScript
 * Review [What is JavaScript?](WhatIsJavaScript.md)
 * Thimble Project Setup (USE CHROME)
 * [Understanding the Basics: Print Console](https://legit-gaming.github.io/week1/Goals.html)
-* [Thimble Exercises: Print Console](TBD)
+* [Thimble Practice Exercises: Print Console](https://legit-gaming.github.io/PracticeExercises.html)
 * CS Variable Activity
 * Understanding the Basics: Variables
 * Closing Activities
@@ -117,6 +117,6 @@ Creating games with JavaScript
   
 ### Links
 * [Understanding the Basics: Topic Overviews](https://legit-gaming.github.io/week1/Goals.html)
-* [Understanding the Basics: Thimble Exercises](TBD)
+* [Understanding the Basics: Thimble Practice Exercises](https://legit-gaming.github.io/PracticeExercises.html)
 * [Number Guessing Game: Thimble Template](https://thimbleprojects.org/legitliberty/331560/)
 * [Number Guessing Game: Project Step Instructions](https://legit-gaming.github.io/GuessingGameInstructions.html)
