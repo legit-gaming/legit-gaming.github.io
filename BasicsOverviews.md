@@ -68,7 +68,7 @@ console.log(amountOfFruit);
 
 ### 4. Use Alerts
 
-The alert function, will display text in a dialog box that pops up on the screen, sharing a message with the user. An alert box is often used if you want to make sure information comes through to the user.
+The `alert()` function, will display text in a dialog box that pops up on the screen, sharing a message with the user. An alert box is often used if you want to make sure information comes through to the user.
 
 ```
 alert("I am an alert box!");
@@ -213,12 +213,12 @@ console.log(someNumber);
 ### 7. Add buttons
 We can try to make our webpage a little more interactive using buttons.  Buttons can be created in two ways: using the an input tag or button tag. 
  
-Let's start with &lt;button>
+Let's start with `<button>`
 
 ```html
 <button>Click Me</button>
 ```
-We can also add attributes to our button tag. For example, adding the id attribute will give a name to this button, making it uniwue, and also allowing it to be referenced by your JavaScript file if/when needed.
+We can also add attributes to our button tag. For example, adding the id attribute will give a name to this button, making it unique, and also allowing it to be referenced by your JavaScript file if/when needed.
 
 ```html
 <button id="buttonSubmit">Click Me</button>
@@ -230,7 +230,7 @@ How do we make our button run JavaScript when it is clicked?  We can use the onc
 <button id="buttonSubmit" onclick="clickMe()">Click Me</button>
 ```
 
-Now when the button is clicked it will run the clickMe() function in our Javascript.  However, we do not have a clickMe function, so let's write it.
+Now when the button is clicked it will run the `clickMe()` function in our Javascript.  However, we do not have a clickMe function, so let's write it.
 
 ```javascript
 function clickMe() {
@@ -238,11 +238,11 @@ function clickMe() {
  }
 ```
 
-As mentioned above, you can do the same thing with &lt;input>. Take a look!
+As mentioned above, you can do the same thing with `<input>`. Take a look!
 ```html
 <input id="inputSubmit" type="button" value="Click Me" onclick="clickMe()"/>
 ```
-As you can see, it is very similar to &lt;button>, but &lt;input> has it's own specific attributes: type - which sets it as a button component on the page, value - name visible to the user on the button. Like &lt;button>, &lt;input> uses the onclick attribute to call the JavaScript function - in this case, clickMe() 
+As you can see, it is very similar to `<button>`, but `<input>` has it's own specific attributes: type - which sets it as a button component on the page, value - name visible to the user on the button. Like `<button>`, `<input>` uses the onclick attribute to call the JavaScript function - in this case, `clickMe()` 
 
 [Try creating your own buttons.](https://legit-gaming.github.io/PracticeExercises.html)
 
@@ -360,19 +360,23 @@ console.log('myInput Value: ' + myInputValue);
 
 On the first line, we use the `document` object, which is globally available.  This means JavaScript can always access it.  We then tell the document object we want to grab one of its children, also called an element in this case, by their id.  We do this by calling the `getElementById` function and providing it the id of our textbox.  It returns the textbox object, which we can grab the value from by saying `myInput.value`.
 
-```javascriptfunction clickMe() {  
-      var myInput = document.getElementById('myInput');  
-      var myInputValue = myInput.value;
-      console.log('myInput Value: ' + myInputValue);
-    }```
+```javascript
+function clickMe() {  
+ var myInput = document.getElementById('myInput');  
+ var myInputValue = myInput.value;
+ console.log('myInput Value: ' + myInputValue);
+}
+```
     
 We took the code we wrote from earlier, so now when we click the button it will print the value of the text box to console.  We can then use an alert so that users can view the value on the screen instead of the console.
 
-```javascriptfunction clickMe() {  
-      var myInput = document.getElementById('myInput');  
-      var myInputValue = myInput.value;
-      alert('myInput Value: ' + myInputValue);
-   }```
+```javascript
+function clickMe() {  
+ var myInput = document.getElementById('myInput');  
+ var myInputValue = myInput.value;
+ alert('myInput Value: ' + myInputValue);
+}
+```
 
 [Try this out!](https://legit-gaming.github.io/PracticeExercises.html)
 
