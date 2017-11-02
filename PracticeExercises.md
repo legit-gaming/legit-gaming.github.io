@@ -73,7 +73,7 @@ Use the output of your area function as in input to this new function.<br>
 **Exercises:** <br>
 A.  In your HTML file, add a button using the button tag: &lt;button> <br><br>
 B.  In your HML file, add a button using the input tag: &lt;input> <br><br>
-C.  Create a function in your JavaScrip file that prints a message to the console. Update your HTML buttons to call this funtion when clicked.
+C.  Create a function in your JavaScript file that prints a message to the console. Update your HTML buttons to call this funtion when clicked.
 
 <br>
 
