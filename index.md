@@ -76,8 +76,6 @@ Creating games with JavaScript
 * Review Functions and work on Thimble Exercises
 * Understanding the Basics: Adding Buttons
   * Number Guessing Game Project - Complete Step 3
-* Understanding the Basics: Generating Random Numbers
-  * Number Guessing Game Project - Complete Step 4
 * Closing Activities      
   * Turn in Photo Release Form
   * Turn in Namecard      
@@ -88,8 +86,9 @@ Creating games with JavaScript
 * Introductions
 * Hand out Namecards
 * Launch Curriculum Home Page
-* Review Understanding the Basics (Functions - Random Numbers)
-* Review progress of Number Guessing Game Project
+* Complete Number Guessing Game Project Step 3
+* Understanding the Basics: Generating Random Numbers
+  * Number Guessing Game Project - Complete Step 4
 * Understanding the Basics: Variable Scope
   * Number Guessing Game Project - Complete Steps 5 & 6
 * Understanding the Basics: Grabbing Data from a Webpage
