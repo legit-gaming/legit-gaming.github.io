@@ -152,37 +152,29 @@ if (numberOfOranges < numberOfApples) {
 
 ### 6. Create functions
 
-We have already used a couple functions, such as `console.log()`, `Math.random()`, and `Math.floor()`.  We can tell they are functions, because they end with parentheses.  Functions allow us to write some code, save it for later, and run it multiple times.  Let's create a function for generating a random number.
+We have already used a couple functions, such as `console.log()` and `alert()`.  We can tell they are functions, because they end with parentheses.  Functions allow us to write some code, save it for later, and run it multiple times.  Let's create a basic function that prints a message to the console.
 
 ```javascript
-function getRandomNumber() {
-  var max = 10;
-  var randomNumber = Math.random() * max;
-  var noDecimalsRandomNumber = Math.floor(randomNumber);
-
-  console.log(noDecimalsRandomNumber);
+function printDay() {
+  console.log("Today is Friday.");
 }
 
-getRandomNumber();
-getRandomNumber();
-getRandomNumber();
+printDay();
 ```
 
 We tell JavaScript that we want to create a function by saying `function` and then giving it a name with parentheses.  Once we have that settled, then we create some open and closing squiggly brackets with our code we want to save in the middle.  After we are finished creating our function, then we call it by name.
 
-We can make our function a little more flexible by passing in parameters.  Say we do not always want 10 to be the max number, so we can tell our function what max we would like.
+<br>
+
+We can make our function a little more flexible by passing in parameters.  Say we want to change the day of the week, we can tell our function what day we want to appear in the message. We do this by adding a parameter to the function - in this case 'day'. If the funtion expects a paremeter, then, when we call the function we must pass in a value, such as "Thursday". Take a look at the following example.
 
 ```javascript
-function getRandomNumber(max) {
-  var randomNumber = Math.random() * max;
-  var noDecimalsRandomNumber = Math.floor(randomNumber);
-
-  console.log(noDecimalsRandomNumber);
+function printDay(day) {
+  console.log("Today is " + day + ".");
 }
 
-getRandomNumber(10);
-getRandomNumber(50);
-getRandomNumber(100);
+printDay("Thursday");
+printDay("Friday");
 ```
 
 Functions can also return things for us.  This can helpful if we want a function to do some work for us and provide us the result.  Let's take a look at some examples.
@@ -194,17 +186,35 @@ function addNumbers(numberOne, numberTwo) {
 
 var twoPlusTwo = addNumbers(2, 2);
 console.log(twoPlusTwo);
+```
 
-function getRandomNumber(max) {
-  var randomNumber = Math.random() * max;
-  var noDecimalsRandomNumber = Math.floor(randomNumber);
+Functions can also call each other. Take a look at these two examples:
 
-  return noDecimalsRandomNumber;
+```javascript
+function storeDay(){
+  return "Wednesday";
 }
 
-var someNumber = getRandomNumber(15);
-console.log(someNumber);
-```
+function favoriteDay(day) {
+  return "Today is: " + storeDay() + ", but my favorite day is " + day;
+}
+
+console.log(favoriteDay("Friday"));
+
+ ```
+ 
+ ```javascript
+function add(num1, num2){
+  return num1 + num2;
+}
+
+function multiply(num3, num4) {
+  return num3 * num4;
+}
+
+var combinedAnswer = multiply(add(2,3),5);
+console.log(combinedAnswer);
+ ```
 
 [Try creating your own functions and print the result.](https://legit-gaming.github.io/PracticeExercises.html)
 
