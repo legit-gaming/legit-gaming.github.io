@@ -349,12 +349,15 @@ In the above example, both the function and the alert would successfully read an
 
 ### 10. Grab data from a webpage 
 
-Let's start off by creating an input box on webpage.  We can do this by adding the following element to our html page.
+Let's start off by creating an input box on the webpage.  We can do this by adding the following element to our html page.
 
 ```html
 <input type="text" id="myInput" />
 <button id="buttonSubmit" onclick="clickMe()">Click Me</button>
 ```
+We've also added a button that will initiate the JavaScript function.
+ 
+<br>
 
 Now if someone types something into our textbox how could our JavaScript grab that information?  We can inspect the document object model (DOM).  When a webpage loads it builds a document object, which creates a number of children objects that represent the items we wrote in our HTML.  For example, the input we wrote above is a child of our document.  Now let's walk through how we can grab the value of the input box with JavaScript.
 
@@ -436,7 +439,9 @@ Take a look at the following HTML, CSS, and JavaScript files:
 
 Example 1: Display text as-is on screen
 ```javascript
-document.getElementById("paragraph2").innerHTML = "This is paragraph 2";
+ function displayInHtml(){
+      document.getElementById("paragraph2").innerHTML = "This is paragraph 2";    
+ }
 ```
 
 Example 2: Display text within paragrpah (&lt;p>) tags
