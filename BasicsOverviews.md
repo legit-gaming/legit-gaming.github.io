@@ -283,6 +283,23 @@ var noDecimalsRandomNumber = Math.floor(randomNumber);
 console.log(noDecimalsRandomNumber);
 ```
 
+We can also use `.toFixed(x)` to specify the number of decimal places we want, if we want them.
+```javascript
+console.log(Math.random().toFixed(2));
+console.log(Math.random().toFixed(4));
+```
+
+We can set a min and max range for our numbers as well.
+
+```javascript
+var min = 4;
+var max = 10;
+var randomNumber = Math.random() * (max - min) + min;
+var roundedNumber = Math.floor(randomNumber);
+
+console.log(roundedNumber);
+```
+
 [Now try creating your own random numbers.](https://legit-gaming.github.io/PracticeExercises.html)
 
 ### 9. Variable Scope
