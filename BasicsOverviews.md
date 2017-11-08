@@ -78,12 +78,10 @@ The alert dialog should be used for messages which do not require any response o
 
 Dialog boxes are modal windows - they prevent the user from accessing the rest of the program's interface until the dialog box is closed. For this reason, be careful and do not overuse the use of a dialog box (or modal window).
 
-Alerts can also be triggered within a function:
+Alerts can also include variables:
 ```
- function showAlert() { 
-   alert ("Hello world!");
-  }
-  showAlert();
+var name = "Sam";
+alert("Hello " + name + ". It's great to meet you!");
 ```
 [Try creating your own alerts and see what displays on the screen.](https://legit-gaming.github.io/PracticeExercises.html)
 
