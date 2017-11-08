@@ -371,7 +371,7 @@ On the first line, we use the `document` object, which is globally available.  T
 function clickMe() {
  var myInput = document.getElementById('myInput');
  var myInputValue = myInput.value;
-console.log('myInput Value: ' + myInputValue);
+ console.log('myInput Value: ' + myInputValue);
 }
 ```
     
@@ -442,16 +442,16 @@ document.getElementById("paragraph2").innerHTML = "This is paragraph 2";
 Example 2: Display text within paragrpah (&lt;p>) tags
 ```javascript
 function displayInHtml(){
-        var content = document.getElementById("paragraph2");    
-        content.innerHTML = '<p>' + "This is paragraph 2" + '</p>';
+   var content = document.getElementById("paragraph2");    
+   content.innerHTML = '<p>' + "This is paragraph 2" + '</p>';
  } 
 ```
 
 Example 3: Display text as an h2 header
 ```javascript
 function displayInHtml(){
-            var content = document.getElementById("paragraph2");    
-            content.innerHTML = '<h2>' + "This is paragraph 2" + '</h2>';
+   var content = document.getElementById("paragraph2");    
+   content.innerHTML = '<h2>' + "This is paragraph 2" + '</h2>';
  } 
  ```
 
