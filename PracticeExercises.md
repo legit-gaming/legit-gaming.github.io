@@ -45,7 +45,7 @@ C.  Solve for the following using variables - one variable for the # of chips Je
 ### 4. Use Alerts
 **Exercises:** <br>
 A.  Create an alert that shares a message of your choice with a user <br><br>
-B.  Create an alert within a function that describes a state or country you want to visit. The function should accept one parameter that represents the state or country. <br>
+B.  Create an alert to the user, which includes a variable.<br>
 
 <br>
 
@@ -53,7 +53,7 @@ B.  Create an alert within a function that describes a state or country you want
 **Exercises:** <br>
 A.  Set a variable called number to 5. Write an if statement to check if the number variable is equal to 5 or not. Make sure to write out to the console or use an alert to print a message for each condition. <br><br>
 B.  Create a variable that stores a user is on page 354 of their favorite book. Then write an if statement that checks if a user has read at least 250 pages. If so, use the console or an alert to tell the user they are more than halfway done. If not, use the console or an alert to tell the user they are almost halfway there. <br><br>
-C.  Create a variable that stores a grade level (integer) from 1st to 12th grade. Use an if statement to indicate which school a student attends based on this grade level (elementary, middle, high school)
+C.  Create a variable that stores a grade level (integer) from 1st to 12th grade. Use an if statement to indicate which school a student attends based on this grade level (elementary, middle, high school) <br>
 
 <br>
 
@@ -65,7 +65,7 @@ The function should expect two parameters - length and width. Print three result
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Note: Area of a rectangle = length * width <br><br>
 C.  Now, create a function to calculate the volume of the Rectangle. <br>
 Use the output of your area function as in input to this new function.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Volume = length * width * height
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Volume = length * width * height <br>
 
 <br>
 
