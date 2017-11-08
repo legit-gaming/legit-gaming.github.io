@@ -285,16 +285,19 @@ For example, a variable defined inside a function is not accessible (visible) fr
 Here's an example of a variable with **LOCAL** scope:
 
 ```
-//code here cannot use color
+//code here cannot use the color variable
 
 function favColor(){
   var color = "blue";
-  //code here can use color
+  //code here can use the color variable
+  
   console.log("My favorite color is " + color);
+  
   //code here can use color
 }
-
 //code here cannot use color
+
+favColor();
 ```
 As you can see in the above example, we created a new variable called 'color' within the function. Since it is local, it means that the variable belongs to the function and is not visible or cannot be accessed by any other code outside that function. 
 
@@ -303,7 +306,6 @@ For example, in the following code, the alert outside of the function would rece
 ```
 function favColor(){
   var color = "blue";
-  console.log("My favorite color is " + color);
 }
 
 alert(color);
@@ -317,24 +319,28 @@ function favColor(){
   var color = "blue";
   console.log("My favorite color is " + color);
 }
+favColor();
 
 function secondFavColor(){
    var color = "black"'
    console.log("My second favorite color is " + color);
 }
+secondFavColor();
 ```
 
 
 A variable with **GLOBAL** scope, is declared outside a function and can be accessed anywhere throughout your code.
 
-var color = " ";
-
 ```
+var color = "";
+
 function favColor(){
   color = "blue";
+  console.log("My favorite color is " + color);
+  return "My favorite color is " + color;
 }
 
-alert("My favorite color is " + color);
+alert(favColor());
 ```
 
 In the above example, both the function and the alert would successfully read and use the color variable.
@@ -347,6 +353,7 @@ Let's start off by creating an input box on webpage.  We can do this by adding t
 
 ```html
 <input type="text" id="myInput" />
+<button id="buttonSubmit" onclick="clickMe()">Click Me</button>
 ```
 
 Now if someone types something into our textbox how could our JavaScript grab that information?  We can inspect the document object model (DOM).  When a webpage loads it builds a document object, which creates a number of children objects that represent the items we wrote in our HTML.  For example, the input we wrote above is a child of our document.  Now let's walk through how we can grab the value of the input box with JavaScript.
@@ -419,6 +426,7 @@ Take a look at the following HTML, CSS, and JavaScript files:
   <p> This is paragraph 1 </p>
   
   <div id="paragraph2" class="paragraph2"></div>
+  <button id="buttonSubmit" onclick="displayInHtml()">Populate div tag</button>
 </body>
 
 </html>
@@ -426,15 +434,25 @@ Take a look at the following HTML, CSS, and JavaScript files:
 
 **JavaScript**
 
-Example 1:
+Example 1: Display text as-is on screen
 ```javascript
 document.getElementById("paragraph2").innerHTML = "This is paragraph 2";
 ```
 
-Example 2:
+Example 2: Display text within paragrpah (&lt;p>) tags
 ```javascript
-var content = document.getElementById("paragraph2");    
-content.innerHTML = '<p>' + "This is paragraph 2" + '</p>';
+function displayInHtml(){
+        var content = document.getElementById("paragraph2");    
+        content.innerHTML = '<p>' + "This is paragraph 2" + '</p>';
+ } 
 ```
+
+Example 3: Display text as an h2 header
+```javascript
+function displayInHtml(){
+            var content = document.getElementById("paragraph2");    
+            content.innerHTML = '<h2>' + "This is paragraph 2" + '</h2>';
+ } 
+ ```
 
 [Take a shot on your own!](https://legit-gaming.github.io/PracticeExercises.html)
