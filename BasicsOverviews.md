@@ -192,15 +192,17 @@ Functions can also call each other. Take a look at these two examples:
 
 ```javascript
 function storeDay(){
-  return "Wednesday";
+  var today = "Wednesday";
+  favoriteDay(today);
 }
+
 
 function favoriteDay(day) {
-  return "Today is: " + storeDay() + ", but my favorite day is " + day;
+  var favDay = "Friday";
+  console.log("Today is: " + day + ", but my favorite day is " + favDay);
 }
 
-console.log(favoriteDay("Friday"));
-
+storeDay();
  ```
  
  ```javascript
