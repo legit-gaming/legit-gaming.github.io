@@ -90,24 +90,19 @@ D.  Return a random number between 0 and 5 (with no decimal places) and input it
 
 ### 9. Variable Scope
 **Exercises:** <br>
-A.  <br><br>
-B.  <br><br>
-C.  
+A.  Create a local variable within a function and print it to the console <br><br>
+B.  Create a global variable that is used within a function and print something to the console that include this variable <br><br>
+C.  Create an example using both a local and global variable
 
 <br>
 
 ### 10. Grab Data from a Webpage 
 **Exercises:** <br>
-A.  <br><br>
-B.  <br><br>
-C.  
+A.  Add an input field to your html page and print the user entry to the console
 
 <br>
 
 ### 11. Using &lt;div> Tags
 **Exercises:** <br>
-A.  <br><br>
-B.  <br><br>
-C.  
-
-
+A.  Add a div tag to your HTML file and populate it with text after clicking a button <br><br>
+B.  Format your text to populate within the div tag as either a header or paragraph
