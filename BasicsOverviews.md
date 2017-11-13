@@ -7,7 +7,7 @@
 5. Use if statements
 6. Create functions
 7. Add buttons
-8. Create a random number
+8. Generating Random Numbers
 9. Variable scope
 10. Grab data from a webpage
 11. Using &lt;div> tags
@@ -265,7 +265,7 @@ As you can see, it is very similar to `<button>`, but `<input>` has it's own spe
 
 [Try creating your own buttons.](https://legit-gaming.github.io/PracticeExercises.html)
 
-### 8. Create a random number
+### 8. Generate a Random Number
 
 To create get a random number we can use the `Math.random()` function. It returns a decimal value between 0 and 1.
 
