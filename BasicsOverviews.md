@@ -175,7 +175,7 @@ sendAlert();
 
 <br>
 
-We can make our function a little more flexible by passing in parameters.  Say we want to change the day of the week, we can tell our function what day we want to appear in the message. We do this by adding a parameter to the function - in this case 'day'. If the funtion expects a paremeter, then, when we call the function we must pass in a value, such as "Thursday". Take a look at the following example.
+We can make our function a little more flexible by passing in parameters.  Say we want to change the day of the week; we can tell our function what day we want to appear in the message. We do this by adding a parameter to the function - in this case 'day'. If the function expects a parameter, then, when we call the function we must pass in a value, such as "Thursday". Take a look at the following example.
 
 ```javascript
 function printDay(day) {
@@ -230,7 +230,7 @@ console.log(combinedAnswer);
 [Try creating your own functions and print the result.](https://legit-gaming.github.io/PracticeExercises.html)
 
 ### 7. Add buttons
-We can try to make our webpage a little more interactive using buttons.  Buttons can be created in two ways: using the an input tag or button tag. 
+We can try to make our webpage a little more interactive using buttons.  Buttons can be created in two ways: using an input tag or button tag. 
  
 Let's start with `<button>`
 
@@ -249,7 +249,7 @@ How do we make our button run JavaScript when it is clicked?  We can use the onc
 <button id="buttonSubmit" onclick="clickMe()">Click Me</button>
 ```
 
-Now when the button is clicked it will run the `clickMe()` function in our Javascript.  However, we do not have a clickMe function, so let's write it.
+Now when the button is clicked it will run the `clickMe()` function in our JavaScript.  However, we do not have a clickMe function, so let's write it.
 
 ```javascript
 function clickMe() {
@@ -261,7 +261,7 @@ As mentioned above, you can do the same thing with `<input>`. Take a look!
 ```html
 <input id="inputSubmit" type="button" value="Click Me" onclick="clickMe()"/>
 ```
-As you can see, it is very similar to `<button>`, but `<input>` has it's own specific attributes: type - which sets it as a button component on the page, value - name visible to the user on the button. Like `<button>`, `<input>` uses the onclick attribute to call the JavaScript function - in this case, `clickMe()` 
+As you can see, it is very similar to `<button>`, but `<input>` has its own specific attributes: type - which sets it as a button component on the page, value - name visible to the user on the button. Like `<button>`, `<input>` uses the onclick attribute to call the JavaScript function - in this case, `clickMe()` 
 
 [Try creating your own buttons.](https://legit-gaming.github.io/PracticeExercises.html)
 
