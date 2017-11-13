@@ -2,7 +2,7 @@
 
 ### Before You Get Started
 * **Make sure to add: <script src="script.js"></script> within the &lt;head> tags in your .html file**
-* **Uncheck the Auto run option next to Preview. You can run/refresh your JavaScript by clickin the arrow next to Preview on the right display panel.**
+* **Uncheck the Auto run option next to Preview. You can run/refresh your JavaScript by clicking the arrow next to Preview on the right display panel.**
 * **Note: sometimes you have to refresh 2 or 3 times before your new JavaScript code picks up - takes a few minutes to pick up the changes.**
 * **FYI on Comments**
   * Use &nbsp;&nbsp;  //**code** &nbsp;&nbsp;   to comment out a single line of code
@@ -73,7 +73,7 @@ Use the output of your area function as in input to this new function.<br>
 **Exercises:** <br>
 A.  In your HTML file, add a button using the button tag: &lt;button> <br><br>
 B.  In your HTML file, add a button using the input tag: &lt;input> <br><br>
-C.  Create a function in your JavaScript file that prints a message to the console. Update your HTML buttons to call this funtion when clicked.
+C.  Create a function in your JavaScript file that prints a message to the console. Update your HTML buttons to call this function when clicked.
 
 <br>
 
