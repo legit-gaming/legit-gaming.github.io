@@ -30,7 +30,7 @@ Detailed Mentor Curriculum
 
 
 ### To be placed in a week
- Goal 2 (in JS file): Use +, -, \*, / to solve math problems -- utilize varibales as well
+ Goal 2 (in JS file): Use +, -, \*, / to solve math problems -- utilize variables as well
   * Simple arithmetic problems
   
  Goal 3 (in JS file): Set a variable to a random number and print it to the console
@@ -53,7 +53,7 @@ Detailed Mentor Curriculum
 
 ### Week 2
 
-* Activity to breakup the class - can be done at the beginning, middle, end of the class (ice breaker or CS Unplugged)
+* Activity to break up the class - can be done at the beginning, middle, end of the class (ice breaker or CS Unplugged)
   \*e.g. Bring in Pis with Minecraft one week, Lightbot
 
 * Number Guessing Game
