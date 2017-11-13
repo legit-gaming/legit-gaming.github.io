@@ -164,7 +164,6 @@ printDay();
 
 We tell JavaScript that we want to create a function by saying `function` and then giving it a name with parentheses.  Once we have that settled, then we create some open and closing squiggly brackets with our code we want to save in the middle.  After we are finished creating our function, then we call it by name.
 
-<br>
 
 Just like `console.log()`, our functions can also send an `alert()`.
 ```javascript
@@ -173,6 +172,8 @@ function sendAlert(){
 }
 sendAlert();
 ```
+
+<br>
 
 We can make our function a little more flexible by passing in parameters.  Say we want to change the day of the week, we can tell our function what day we want to appear in the message. We do this by adding a parameter to the function - in this case 'day'. If the funtion expects a paremeter, then, when we call the function we must pass in a value, such as "Thursday". Take a look at the following example.
 
