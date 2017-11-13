@@ -267,7 +267,7 @@ As you can see, it is very similar to `<button>`, but `<input>` has it's own spe
 
 ### 8. Create a random number
 
-To create get a random number we can use the `Math.random()` feature.  It returns a decimal value between 0 and 1.
+To create get a random number we can use the `Math.random()` function. It returns a decimal value between 0 and 1.
 
 ```javascript
 console.log(Math.random());
@@ -282,7 +282,7 @@ var randomNumber = Math.random() * max;
 console.log(randomNumber);
 ```
 
-We might not want those decimals on our random number, so we can use `Math.floor()` to chop them off.
+We might not want those decimals on our random number, so we can use `Math.floor()` function to chop them off.
 
 ```javascript
 var max = 10;
@@ -292,7 +292,7 @@ var noDecimalsRandomNumber = Math.floor(randomNumber);
 console.log(noDecimalsRandomNumber);
 ```
 
-We can also use `.toFixed(x)` to specify the number of decimal places we want, if we want them.
+We can also use `.toFixed(x)` function to specify the number of decimal places we want, if we want them.
 ```javascript
 console.log(Math.random().toFixed(2));
 console.log(Math.random().toFixed(4));
@@ -307,6 +307,49 @@ var randomNumber = Math.random() * (max - min) + min;
 var roundedNumber = Math.floor(randomNumber);
 
 console.log(roundedNumber);
+```
+
+We can also generate a random number within a function as displayed below:
+
+```javascript
+function getRandomNumber() {
+  var max = 10;
+  var randomNumber = Math.random() * max;
+  var noDecimalsRandomNumber = Math.floor(randomNumber);
+
+  console.log(noDecimalsRandomNumber);
+}
+
+getRandomNumber();
+getRandomNumber();
+getRandomNumber();
+```
+
+We can make this a little more flexible by passing in parameters. Say we do not always want 10 to be the max number, we can tell our function what max we would like. Here are two ways to do this:
+
+```javascript
+function getRandomNumber(max) {
+  var randomNumber = Math.random() * max;
+  var noDecimalsRandomNumber = Math.floor(randomNumber);
+
+  console.log(noDecimalsRandomNumber);
+}
+
+getRandomNumber(10);
+getRandomNumber(50);
+getRandomNumber(100);
+```
+
+```javascript
+function getRandomNumber(max) {
+  var randomNumber = Math.random() * max;
+  var noDecimalsRandomNumber = Math.floor(randomNumber);
+
+  return noDecimalsRandomNumber;
+}
+
+var someNumber = getRandomNumber(15);
+console.log(someNumber);
 ```
 
 [Now try creating your own random numbers.](https://legit-gaming.github.io/PracticeExercises.html)
