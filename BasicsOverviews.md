@@ -166,6 +166,14 @@ We tell JavaScript that we want to create a function by saying `function` and th
 
 <br>
 
+Just like `console.log()`, our functions can also send an `alert()`.
+```javascript
+function sendAlert(){
+  alert("Hello from within a function!");
+}
+sendAlert();
+```
+
 We can make our function a little more flexible by passing in parameters.  Say we want to change the day of the week, we can tell our function what day we want to appear in the message. We do this by adding a parameter to the function - in this case 'day'. If the funtion expects a paremeter, then, when we call the function we must pass in a value, such as "Thursday". Take a look at the following example.
 
 ```javascript
