@@ -59,7 +59,7 @@ C.  Create a variable that stores a grade level (integer) from 1st to 12th grade
 
 ### 6. Create Functions
 **Exercises:** <br>
-A.  Create a function that prints your name <br><br>
+A.  Create a function that prints your name, by accepting a "name" parameter <br><br>
 B.  Create a function that calculates and returns the area of a Rectangle. <br>
 The function should expect two parameters - length and width. Print three results, each with different parameter inputs.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Note: Area of a rectangle = length * width <br><br>
