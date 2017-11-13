@@ -4,7 +4,7 @@ HTML stands for HyperText Markup Language.  It allows us to create websites!  HT
 
 HTML works by creating a .html file (MyVideoGames.html for example).  Within the .html file, you define your page using special html tags.  Tags are the words between the greater than / less than brackets: <>. An example of a tag is \<b>.  
 
-Every html file begins with \<!DOCTYPE html> and will haven a beginning and ending \<html> tag.  An example html file looks like: 
+Every html file begins with \<!DOCTYPE html> and will have a beginning and ending \<html> tag.  An example html file looks like: 
 
 \<!DOCTYPE html>
 
