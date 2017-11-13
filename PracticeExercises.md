@@ -77,7 +77,7 @@ C.  Create a function in your JavaScript file that prints a message to the conso
 
 <br>
 
-### 8. Create a Random Number
+### 8. Generate a Random Number
 **Exercises:** <br>
 A.  Return a random number between 0 and 20, not including 20 <br><br>
 B.  Return a random number between 0 and 20, including 20 - number should have 3 decimal places <br><br>
