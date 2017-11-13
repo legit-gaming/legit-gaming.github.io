@@ -15,11 +15,11 @@
 2. Add a for attribute within the label tag and set it equal to the user's guess [e.g. for="inputGuess"]. 
 3. Create an input field, with type="text" where the user can type in their guess. 
 4. Set an id value for the input [e.g. inputGuess]. This is important so we can use/call this id value within our JavaScript file.
-5. If you would like, also add placeholder text to hint to the user their guess should be betwen 0 and 100.
+5. If you would like, also add placeholder text to hint to the user their guess should be between 0 and 100.
 * **Note: The input will not be read just yet.
 
 ##### Step 9
-1. Add a div tag wtih the following attributes, class="results", id="results". This tag should be added right before the closing body tag &lt;/body>.
+1. Add a div tag with the following attributes, class="results", id="results". This tag should be added right before the closing body tag &lt;/body>.
 2. Complete Step 9 in the JavaScript file
 
 <br>
@@ -41,7 +41,7 @@
 ##### Step 3 (Complete JS Step 3 before HTML Step 3)
 1. Wrap your if/else statement within a guess function [called something like checkMyGuess()].
 2. Delete the alert from step 1, where you displayed the secret number. 
-3. Move your console.log statement from Step 1 to the end of the guess funtion.
+3. Move your console.log statement from Step 1 to the end of the guess function.
 4. Flip over to your html file now (Step 3) to add a button that will call this guess function.
 
 ##### Step 4
@@ -52,10 +52,10 @@
 4. Play the game multiple times and notice each time the secret number will change! To replay - click the refresh button next to preview in the display window to the right.
 
 ##### Step 5
-1. Create a new variable (before of all the functions) [called something like var message], which will be a global variable at the top of your file , and set the value to an empty string "". This variable will store the messsage (too high, too low, etc.), that you will present to the user. 
+1. Create a new variable (before of all the functions) [called something like var message], which will be a global variable at the top of your file, and set the value to an empty string "". This variable will store the message (too high, too low, etc.), that you will present to the user. 
 2. Create a new function which we will use to trigger the message result you will present to the player [e.g. resultMessage()]. 
 3. Inside the result message function, use an alert to display the message variable to the user, and also print your message variable along with the secret number [e.g. message + " " + secretNum] to the console. 
-* **Note: This message will not print when you run your program because we are not calling the funtion anywhere...yet!
+* **Note: This message will not print when you run your program because we are not calling the function anywhere...yet!
 
 ##### Step 6
 1. Within your if/else conditions, remove the alert function and instead set your display message to your message variable which you created in step 5.
@@ -96,7 +96,7 @@ Let's now display the message to the user on the screen versus in the alert wind
 * Allow the user to set the guess range. Right now we have the code defaulted to 100. Take input from the user to set that value. e.g. 20, 50, 200
 * Make the messages back to the user more dynamic
   * Collect the user's name and print it in a response
-  * If the user guesses an inccorect number, tell them how 'warm' or 'cold' they are based on how far away their guess is from the correct number.
+  * If the user guesses an incorrect number, tell them how 'warm' or 'cold' they are based on how far away their guess is from the correct number.
 * Add more styling to the page using CSS
   * Here are some Thimble Exercises you can work on and use as a guide - Choose Remix and follow the Tutorial Tab above the display screen:
     * [Keep Calm Poster - Good Way to Learn HTML and CSS](https://thimble.mozilla.org/en-US/user/legitliberty/1255829)
