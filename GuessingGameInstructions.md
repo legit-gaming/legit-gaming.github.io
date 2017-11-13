@@ -3,7 +3,7 @@
 #### **HTML**
 
 ##### Step 1 (START PROJECT HERE)
-1. Create an HTML page with a header for now. When time allows, you can fancy it up!
+1. Create an HTML page with a header for now. When time allows, you can fancy it up! Then jump over to JavaScript step 1.
 
 ##### Step 3 (Start with JavaScript Step 3)
 1. Add a submit button.
